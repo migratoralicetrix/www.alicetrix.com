@@ -18,14 +18,14 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="./">
+                <a class="navbar-brand" href="../">
                     <img class="img-fluid" src="./About_files/Alicetrixlogoblack.png" width="150" alt="">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav mr-auto">
 
                             <li class="nav-item active">
-                                <a class="nav-item nav-link" href="./">Home<span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link" href="../">Home<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
 
