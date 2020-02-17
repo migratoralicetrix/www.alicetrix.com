@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!-- saved from url=(0023)http://localhost:50510/ -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
