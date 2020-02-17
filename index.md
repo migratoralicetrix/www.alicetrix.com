@@ -28,22 +28,18 @@
                     <ul class="navbar-nav mr-auto">
 
                             <li class="nav-item active">
-                                <a class="nav-item nav-link" href="http://localhost:50510/">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link" href="./index.md">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
 
-                                <a class="nav-item nav-link" href="http://localhost:50510/Home/About">Help</a>
+                                <a class="nav-item nav-link" href="./About/About.html">Help</a>
                             </li>
 
                     </ul>
 
 
                     
-    <ul class="nav navbar-nav navbar-right">
-        <!--<li><a class = "btn btn-outline-success mr-sm-2" asp-area="" asp-controller="Account" asp-action="Register">Register</a></li> -->
-        <li><a class="btn btn-outline-success mr-sm-2" href="http://localhost:50510/Account/Login">Log in</a></li>
-    </ul>
-
+  
                    
 
                 </div>
