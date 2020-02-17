@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Onetime Setup for OneDrive</title>
+</head>
+<body>
+    <h1>Onetime Setup for OneDrive/SharePoint</h1>
+    <p>&nbsp;</p>
+    <p>Microsoft Authentication is currently only allowed on OAuth mechanism.</p>
+    <h1>Steps to create Service Account:</h1>
+    <p>&nbsp;</p>
+    <h2>Step A:</h2>
+    <ol>
+        <li>Go to the <a href="https://portal.azure.com/">https://portal.azure.com</a>.</li>
+        <li>When prompted, sign in with your administrator account credentials. This administrator should also have admin access to your OneDrive and SharePoint tenants.</li>
+        <li>On Menu, left navigation pane, Go to you Azure Active Directory and click on App Registration</li>
+        <li>On top, you will get option to add an app. Click on New Registration.</li>
+        <li>Enter your app's name</li>
+        <li>
+            Select under Supported Account Types &ldquo;Accounts in this organizational directory only (Migrator only - Single tenant)&rdquo;.         
+            <span class="badge badge-danger">Security Considerations</span>
+            Be Careful in selecting any other option as that may allow Users other than current users of your tenant to have access to OneDrive/SharePoint contents of your tenant. In cases where you are migrating contents for tenants other than the one you are currently logged in, other options can be selected, but this is not recommended from security standpoint and not required as well.
+        </li>
+        <li>Enter redirect URL value as Web Application Migrator Home Page as below:</li>
+    </ol>
+    <p>https://&lt;VM IP address and or domain name&gt;:&lt;port, optional, if running on different port enter port number as well&gt;/migrator/index</p>
+    <ol start="8">
+        <li>
+            Click on Register
+          
+
+        </li>
+
+        <li>Go to API Permissions, add below permissions: Select API Name (Microsoft Graph and SharePoint), Select Delegated and Search for below permissions and add them. Also select Grant Admin Consent to ensure your App has admin permission.
+            <p>
+                <img src="images/onedriveOnetimeauth.jpg" width="600" />
+
+            </p>
+        </li>
+        <li>While on App, go to left Navigation pane and select Certificates and Secrets</li>
+        <li>Use options on screen to create a new certificate, Select expiry as One Year or any other based on your organization policy, Enter Certificate Name, click Add. A new certificate is created. Copy the certificate value and store it for next steps. It serves as Client Secret for next step.</li>
+        <li>Also, go back to Overview of your app and copy &ldquo;Application (client) ID&rdquo;, it serves as Client ID for for next step.</li>
+    </ol>
+    <h2>Step B:</h2>
+    <p>Go to your Alicetrix Web App <a href="/Migrator/AdminConfig" target="_parent">Admin</a> Page and update Client IDs and Secret with App ID as Client Id and Client Secret as password created from previous step in OneDrive and SharePoint Section</p>
+    <p><strong>
+    <span class="badge badge-warning">Important Note</span>
+    Client ID and Client Secret are not persisted in database. Hence, Client ID and Client Secret needs to be updated each time Alicetrix web application server is restarted.
+</strong></p>
+    <p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Reports</title>
+</head>
+<body>
+    <h1>Reports</h1>
+    <p>Retrieve detailed reports on Migration from Reports tab. Reports are exported in a CSV format.</p>
+    <p>Current reports available in application are:</p>
+    <h2>Retrieves all migrations</h2>
+    <p>This reports just exports all migrations that were done in Application. It gives basic details of migration and options used in migration.</p>
+    <h2>All file Migration Reports</h2>
+    <p>Typically, this report retrieves details of files or folder that were migrated for each batch of migration. &nbsp;This report is also used when detailed report was requested on file/folders from Remediation tab. Based on how Migration or Remediation each column in this report may show different information that is indicated by column header. In this report migration status is particularly important field on each file or folder that indicates if there is a failure. Associated with Migration Status is Migration Comments that explains in detail if there is a failure and reason for failure. This reports also indicates Source and Destination IDs for files/folder that were migrated. If Migration was successful a Destination ID is shown.</p>
+    <p>There are also individual user Ids and Migration Complete message indicating if migration was completed successfully. Hence to count total number of files/folder migrated discount those entries or run Pivot reports on data.</p>
+    <p>It is recommended that for large data sets user selects Migration batch and/or enter respective User IDs for reports on particular migration that needs to be retrieved.</p>
+
+    <img src="images/ReportsAllFileMigration.JPG" width="600"/>
+    <p>Note: For Permission migration, folder migration does not show a failed status. Hence look in this column for comments related permission migration and if any failure may have occurred.</p>
+    <h2>Retrieve Permission Behavior Algorithm</h2>
+    <p>&nbsp;If <strong>UploadMappingFilesforUsersAndGroups </strong>option was used when applying for permission during migration, you were required to upload a User mapping file. Retrieve the user mapping details for a specific batch of Migration from this section.</p>
+    <p>&nbsp;</p>
+    <h2>Report cleanup options, housekeeping for data generated.</h2>
+    <p>Over a period of time Database size grows. Migrator application uses a local database for results storage and do not uses an Enterprise database (like SQL Server). This is done to ensure migration are faster and roundtrips in storing data in a non-local database is avoided. Since database resides in your application it grows over time. It is recommended that database size is kept less than 2 GB or approximately 3 Million entries. Use options <strong>Delete All File Migration Report</strong> and <strong>Delete Permission Algorithm Report</strong> to reduce the size of database.</p>
+    <p>Note: File Migration Report should not be used when resyncing is required on data from migration tab. &nbsp;</p>
+    <p>Note: All report files in CSV format are generated in root app folder of this web application. Hence before using this delete option, it is recommended to retrieve CSVs for all file/folders. Hence CSVs serves as an archive in the same application root folder. Also, if application is used over a very long period, cloud administrator can take a backup of those files and clear root folder.</p>
+
+</body>
+</html>
