@@ -11,6 +11,7 @@
 <body>
 
     <header>
+          <base href="https://www.alicetrix.com/" target="_blank">
 
         <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:black">
 
@@ -18,14 +19,14 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="../">
+                <a class="navbar-brand" href="base/">
                     <img class="img-fluid" src="./About_files/Alicetrixlogoblack.png" width="150" alt="">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav mr-auto">
 
                             <li class="nav-item active">
-                                <a class="nav-item nav-link" href="../">Home<span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link" href="base/">Home<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
 
@@ -55,12 +56,12 @@
 
 
 <div class="row">
-    <div class="col-lg-2">
+    <div class="col-lg-4">
 
         <div id="navbar1" class="nav nav-pills bg-light">
             <a id="Introduction" class="nav-link active" href="./Help/Introduction.htm" target="myframe">Introduction</a>
             <a id="Setup" class="nav-link" href="./Help/Setup.htm" target="myframe">Setup</a>
-            <a id="GoogleOnetime" class="nav-link ml-3 my-1" href="./help/GoogleOneTimeSetup.htm" target="myframe">Google Onetime Configuration</a>
+            <a id="GoogleOnetime" class="nav-link ml-3 my-1" href="./Help/GoogleOneTimeSetup.htm" target="myframe">Google Onetime Configuration</a>
             <a id="BoxOnetime" class="nav-link ml-3 my-1" href="./Help/BoxOneTimeAuth.html" target="myframe">Box Onetime Configuration</a>
             <a id="OneDriveOnetime" class="nav-link ml-3 my-1" href="./Help/OneDriveOneTimeSetup.html" target="myframe">OneDrive &amp; SharePoint Onetime Configuration</a>
             <a id="Authentication" class="nav-link ml-3 my-1" href="./Help/Authentication.html" target="myframe">Authentication</a>
@@ -72,7 +73,7 @@
 
         </div>
     </div>
-    <div class="col-lg-10">
+    <div class="col-lg-8">
         <div class="embed-responsive embed-responsive-1by1">
 
             <iframe id="frame001" class="embed-responsive-item" name="myframe" src="./About_files/Introduction.html"></iframe>
