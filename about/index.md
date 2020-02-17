@@ -4,9 +4,7 @@
     <link href="./About_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-0Mou2qXGeXK7k/Ue/a1hspEVcEP2zCpoQZw8/MPeUgISww+VmDJcy2ri9tX0a6iy" crossorigin="anonymous">
     <style>
 
-        body {
-            padding-top: 4.0rem;
-        }
+      
     </style>
 
 </head>
@@ -27,11 +25,11 @@
                     <ul class="navbar-nav mr-auto">
 
                             <li class="nav-item active">
-                                <a class="nav-item nav-link" href="./">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link" href="./">Home<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
 
-                                <a class="nav-item nav-link" href="./About">Help</a>
+                                <a class="nav-item nav-link" href="./">Help</a>
                             </li>
 
                     </ul>
