@@ -1,4 +1,3 @@
-<!-- saved from url=(0023)http://localhost:50510/ -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <link href="./localhost_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-0Mou2qXGeXK7k/Ue/a1hspEVcEP2zCpoQZw8/MPeUgISww+VmDJcy2ri9tX0a6iy" crossorigin="anonymous">
@@ -66,7 +65,7 @@
             <div class="carousel-caption d-none d-md-block">
                 <p>
                     </p><h4> Learn How Alicetrix's Cloud Migrator Software can migrate your data.</h4>
-                    <a class="btn btn-lg btn-primary" href="http://localhost:50510/Home/About" role="button"> Learn More   </a>
+                    <a class="btn btn-lg btn-primary" href="./About" role="button"> Learn More   </a>
                 <p></p>
             </div>
 
@@ -77,7 +76,7 @@
                 <div class="carousel-caption d-none d-md-block">
                     <p>
                         </p><h5> Learn about powerful features of Software</h5>
-                        <a class="btn btn-lg btn-primary" href="http://localhost:50510/Home/About" role="button"> Learn More   </a>
+                        <a class="btn btn-lg btn-primary" href="./About" role="button"> Learn More   </a>
                     <p></p>
                 </div>
             </div>
@@ -90,7 +89,7 @@
 
                         Learn how Data Security is implemented with our hosting partners.
                     </h4>
-                    <a class="btn btn-lg btn-primary" href="http://localhost:50510/Home/About" role="button"> Learn More   </a>
+                    <a class="btn btn-lg btn-primary" href="./About" role="button"> Learn More   </a>
                 <p></p>
             </div>
         </div>
@@ -106,11 +105,11 @@
             </div>
         </div>
     </div>
-    <a class="carousel-control-prev" href="http://localhost:50510/#myCarousel" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="./#myCarousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="http://localhost:50510/#myCarousel" role="button" data-slide="next">
+    <a class="carousel-control-next" href="./#myCarousel" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
@@ -144,14 +143,14 @@
             <h2>Box</h2>
             <h5>Migrate contents from Box, Create new folders, Sync permissions, Enable/Disable Account(s)</h5>
             <h6> Current Software Offerings are: <b>BoxToOneDrive</b> Migrator </h6>
-            <p><a class="btn btn-secondary" href="http://localhost:50510/home/about" role="button">View details »</a></p>
+            <p><a class="btn btn-secondary" href="./about" role="button">View details »</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-6">
             <img class="img-fluid" src="./localhost_files/google.jpg" alt="" width="150">
             <h2>Google Drive</h2>
             <h5>Migrate contents from Google Drive, Create new folders, Sync permissions, Get forms and sheet data in Word document and excels</h5>
             <h6> Current Software Offerings are: <b>GoogleDrivetoOneDrive</b> Migrator </h6>
-            <p><a class="btn btn-secondary" href="http://localhost:50510/Home/About" role="button">View details »</a></p>
+            <p><a class="btn btn-secondary" href="./About" role="button">View details »</a></p>
         </div><!-- /.col-lg-4 -->
       
     </div><!-- /.row -->
@@ -191,7 +190,7 @@
 
                         <div class="" id="headingOne">
 
-                            <a href="http://localhost:50510/#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <a href="./#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 Assumptions and Liability Disclaimers
                             </a>
 
