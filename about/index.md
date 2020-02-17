@@ -20,30 +20,25 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="http://localhost:50510/">
+                <a class="navbar-brand" href="./">
                     <img class="img-fluid" src="./About_files/Alicetrixlogoblack.png" width="150" alt="">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav mr-auto">
 
                             <li class="nav-item active">
-                                <a class="nav-item nav-link" href="http://localhost:50510/">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link" href="./">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
 
-                                <a class="nav-item nav-link" href="http://localhost:50510/Home/About">Help</a>
+                                <a class="nav-item nav-link" href="./About">Help</a>
                             </li>
 
                     </ul>
 
 
                     
-    <ul class="nav navbar-nav navbar-right">
-        <!--<li><a class = "btn btn-outline-success mr-sm-2" asp-area="" asp-controller="Account" asp-action="Register">Register</a></li> -->
-        <li><a class="btn btn-outline-success mr-sm-2" href="http://localhost:50510/Account/Login">Log in</a></li>
-    </ul>
-
-                   
+         
 
                 </div>
 
@@ -65,17 +60,17 @@
     <div class="col-lg-2">
 
         <div id="navbar1" class="nav nav-pills bg-light">
-            <a id="Introduction" class="nav-link active" href="http://localhost:50510/Help/Introduction.htm" target="myframe">Introduction</a>
-            <a id="Setup" class="nav-link" href="http://localhost:50510/Help/Setup.htm" target="myframe">Setup</a>
-            <a id="GoogleOnetime" class="nav-link ml-3 my-1" href="http://localhost:50510/help/GoogleOneTimeSetup.htm" target="myframe">Google Onetime Configuration</a>
-            <a id="BoxOnetime" class="nav-link ml-3 my-1" href="http://localhost:50510/Help/BoxOneTimeAuth.html" target="myframe">Box Onetime Configuration</a>
-            <a id="OneDriveOnetime" class="nav-link ml-3 my-1" href="http://localhost:50510/Help/OneDriveOneTimeSetup.html" target="myframe">OneDrive &amp; SharePoint Onetime Configuration</a>
-            <a id="Authentication" class="nav-link ml-3 my-1" href="http://localhost:50510/Help/Authentication.html" target="myframe">Authentication</a>
-            <a id="Remediation" class="nav-link" href="http://localhost:50510/Help/Remediation.html" target="myframe">Remediation</a>
-            <a id="Migration" class="nav-link" href="http://localhost:50510/Help/Migration.html" target="myframe">Migration</a>
-            <a id="Advanced" class="nav-link ml-3 my-1" href="http://localhost:50510/Help/MigrationAdvanced.html" target="myframe">Advanced Concepts</a>
-            <a id="Reports" class="nav-link" href="http://localhost:50510/Help/Reports.html" target="myframe">Reports</a>
-            <a id="Admin" class="nav-link" href="http://localhost:50510/Help/Admin.html" target="myframe">Admin</a>
+            <a id="Introduction" class="nav-link active" href="./Help/Introduction.htm" target="myframe">Introduction</a>
+            <a id="Setup" class="nav-link" href="./Help/Setup.htm" target="myframe">Setup</a>
+            <a id="GoogleOnetime" class="nav-link ml-3 my-1" href="./help/GoogleOneTimeSetup.htm" target="myframe">Google Onetime Configuration</a>
+            <a id="BoxOnetime" class="nav-link ml-3 my-1" href="./Help/BoxOneTimeAuth.html" target="myframe">Box Onetime Configuration</a>
+            <a id="OneDriveOnetime" class="nav-link ml-3 my-1" href="./Help/OneDriveOneTimeSetup.html" target="myframe">OneDrive &amp; SharePoint Onetime Configuration</a>
+            <a id="Authentication" class="nav-link ml-3 my-1" href="./Help/Authentication.html" target="myframe">Authentication</a>
+            <a id="Remediation" class="nav-link" href="./Help/Remediation.html" target="myframe">Remediation</a>
+            <a id="Migration" class="nav-link" href="./Help/Migration.html" target="myframe">Migration</a>
+            <a id="Advanced" class="nav-link ml-3 my-1" href="./Help/MigrationAdvanced.html" target="myframe">Advanced Concepts</a>
+            <a id="Reports" class="nav-link" href="./Help/Reports.html" target="myframe">Reports</a>
+            <a id="Admin" class="nav-link" href="./Help/Admin.html" target="myframe">Admin</a>
 
         </div>
     </div>
@@ -132,7 +127,7 @@
 
                         <div class="" id="headingOne">
 
-                            <a href="http://localhost:50510/Home/About#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <a href="./About#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 Assumptions and Liability Disclaimers
                             </a>
 
