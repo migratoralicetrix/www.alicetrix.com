@@ -4,9 +4,7 @@
     <link href="./localhost_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-0Mou2qXGeXK7k/Ue/a1hspEVcEP2zCpoQZw8/MPeUgISww+VmDJcy2ri9tX0a6iy" crossorigin="anonymous">
     <style>
 
-        body {
-            padding-top: 4.0rem;
-        }
+      
     </style>
 
 </head>
@@ -20,18 +18,18 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="http://localhost:50510/">
+                <a class="navbar-brand" href="./">
                     <img class="img-fluid" src="./localhost_files/Alicetrixlogoblack.png" width="150" alt="">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav mr-auto">
 
                             <li class="nav-item active">
-                                <a class="nav-item nav-link" href="./index.md">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link" href="./">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
 
-                                <a class="nav-item nav-link" href="./About/About.html">Help</a>
+                                <a class="nav-item nav-link" href="./About">Help</a>
                             </li>
 
                     </ul>
