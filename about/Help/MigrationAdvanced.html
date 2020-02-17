@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Migration Advanced Options</title>
+</head>
+<body>
+    <h2>Advanced Options:</h2>
+    <p>&nbsp;</p>
+    <h3>Permission Copy</h3>
+    <p>&nbsp;</p>
+    <p>Permission copy happens per below options and users can select them during Migration.</p>
+    <img src="images/MigrationPermissionMatchingAlgo.JPG" width="600" />
+    <p>Note: it is required that all users/group with whom permission needs to be shared are already provisioned in destination tenant. This application will not auto provision the users and throws an error if users are not found with whom folders need to be shared.</p>
+    <ol>
+        <li><strong>DoNotApply</strong> &ndash; This is simplest option selected by default which means you do not intend to migrate permissions.</li>
+        <li><strong>MatchSameUserID</strong> &ndash; This is simplest form of permission matching option which can be selected. However, this option assumes that Source and Destination share Same User IDs or AD structure. If you have not checked on checkbox for Source and Destination User IDs being different select this option this option need to be used (do not use any other options of permission matching). Example say <a href="mailto:user1@abc.com">user1@abc.com</a> shared to edit his/her folder with <a href="mailto:user2@abc.com">user2@abc.com</a> in source tenant. In this option when folder is migrated to destination tenant, permission is applied for <a href="mailto:user2@abc.com">user2@abc.com</a> on that folder to edit as well in destination tenant.</li>
+        <li><strong>MatchSameUserIDandDifferentDomain</strong> &ndash; this option is selected when user ids stays the same between Source and Destination Tenant but just domains have changed. From Previous example: When copying Permission same user ID to which a particular folder was shared is used when applying permission. Example say <a href="mailto:user1@abc.com">user1@abc.com</a> shared to edit his/her folder with <a href="mailto:user2@abc.com">user2@abc.com</a> in source tenant. In this option when folder is migrated to destination tenant, permission is applied for <a href="mailto:user2@xyz.com">user2@xyz.com</a> on that folder to edit as well in destination tenant, if xyz.com is the new domain.</li>
+        <li><strong>UploadMappingFilesforUsersAndGroups</strong> &ndash; This option is used when user Ids are not same in Source and Destination Tenant. You are allowed to upload a mapping file mapping each user in Source Tenant to Destination Tenant (with whom folders need to be shared). In cases when you have a large org recommended best practice if to create this CSV mapping file and upload it each time when applying permission. In previous example:</li>
+    </ol>
+    <p>Example say <a href="mailto:user1@abc.com">user1@abc.com</a> shared to edit his/her folder with <a href="mailto:user2@abc.com">user2@abc.com</a> in source tenant. In this option when folder is migrated to destination tenant, permission is applied for <a href="mailto:userB@xyz.com">userB@xyz.com</a> &nbsp;who corresponds to user2 on that folder to edit as well in destination tenant.</p>
+
+    <img src="images/MigrationUploadPermissionMapping.JPG" width="600"/>
+    <p>Note: Permission mapping does consumes lots of APIs calls both on Destination and Source tenants, hence sometimes it is recommended to do Permission mapping in Second Pass Migration. You can do it by selecting checkbox as in screen below on your second pass migration.</p>
+
+    <img src="images/MigrationSecondPassPermissionapply.JPG" width="600" />
+    <p>&nbsp;</p>
+    <h4>Permission scenario by tenant:</h4>
+    <p>Google to OneDrive: Organizer, Owner, Writer gets converted into Write Permission for OneDrive tenant, rest gets converted into Read permission in OneDrive tenant</p>
+    <p>Box to OneDrive: Editor, Co-Owner gets converted into Write Permission for OneDrive tenant, rest gets converted into Read permission in OneDrive tenant</p>
+    <p>&nbsp;</p>
+    <h3>Syncing or Second Pass Migration</h3>
+    <p>&nbsp;</p>
+    <p>Use this option to resync or migrate again for files that errored out. Migrator Application maintains its own local database. If this option is selected a list of all previous migration is shown (if another folder was chosen as root folder it is also shown in dropdown). A user can select from dropdown migrations done earlier. When a previous migration is selected to sync with while Source is still read for getting list of files to be migrated, destination is only read or written when there is a new file/folder in source or any files in previous migration errored out.</p>
+    <p>Note: In this option it is important that users who were migrated in earlier migration are entered in list of users to be migrated, as well as if a new folder other than root folder was entered for migration, same folder name is entered in Root destination folder. If this step is not done, Resyncing wont be fast.</p>
+    <p>Note: During resyncing with this option selected file behavior can be configured as replace or rename. Use replace if you feel files uploaded in first pass migration are not migrated correctly but still showing in destination tenant. User rename otherwise which means if files of same name are present in source folder they are also migrated with new names. You can also use Skip/Ignore but in this options if files are present in destination tenant but not migrated properly, you will not be able to rewrite them.</p>
+
+    <img src="images/MigrationResyncing.JPG" width="600" />
+    <p>&nbsp;</p>
+    <p>Users can still resync their files without selecting this option. For that purpose, leave above box unchecked, use same user list and same folder name (which was selected as destination folder to migrated). In file behavior select Skip/Ignore. While this option can resync as outlined above this may not replace files errored out. Additionally, destination is read every time to check if file is present at same location, in certain cases hitting API limits in case of very large migration.</p>
+    <p>&nbsp;</p>
+
+    <h3>Migrating specific folders for a particular user.</h3>
+    <p>&nbsp;</p>
+
+    <p>In certain cases not all folders need to be migrated for a user, or in cases where a folder reading errored out, only that folder needs to be migrated.</p>
+    <p>In either destination or source tenant, each folder is represented by a unique Id. Unique ID of a particular folder can be found either from the URL or if you try to share a link of that folder, link of folder will have the unique folder ID of that folder.</p>
+    <p>If you wish to migrate only one folder from one User to specific folder for same user in destination tenant you can use this option. Enter the unique ID of folder from Source tenant from where contents need to be migrated, also enter the unique ID of destination tenant where contents needs to be migrated. Destination Folder ID serves as root folder ID for location where all contents from Source folder will be migrated, if option of create a new folder was selected for destination migration folder, a new folder at the destination folder ID will be created.</p>
+
+    <img src="images/MigrationFromadiffferntrootfld.JPG" width="600" />
+    <p>&nbsp;</p>
+    <p>Note: This option can only migrate contents on only one user at a time. Multiple users for migration should not be entered in this case.</p>
+    <p>&nbsp;</p>
+</body>
+</html>

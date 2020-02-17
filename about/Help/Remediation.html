@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Remediation</title>
+</head>
+<body>
+    <h1>Remediation</h1>
+    <p>Remediation runs on the source tenant. Follow screen prompts to run remediations.</p>
+    <p>Ensure before running remediation Source is authenticated.</p>
+    <p>Remediation page can address two key pre-migration objectives:</p>
+    <ul>
+        <li><strong>Create Reports</strong> on Data Content in Source Tenant</li>
+    </ul>
+    <p>Use below two option to generate either a summary report or detailed report</p>
+    <img src="images/RemediationReportOptions.JPG" width="600"/>
+    <ul>
+        <li><strong>Fix minor issues with filename</strong> or replace or remove special characters in filenames or folder names in Source Tenant.</li>
+        <img src="images/RemediationReplaceRemoveSpecChars.JPG"  width="600"/>
+    </ul>
+    <p>Using remediation tab detailed reports can be generated on each files in excel for each user requiring migration. This is a recommended step to ensure initial repository of detailed files/folders are created for any cross-checks after the migration process.</p>
+    <p>If replacing file special character in filenames is not opted on this page, there is an option on admin page that should be enabled to allow replacing special characters by &ndash; else files having special characters may run into migration issues.</p>
+    <img src="images/SpecialCharcterOverrideImage.JPG" width="600" />
+</body>
+</html>
