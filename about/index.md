@@ -17,8 +17,8 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="https://www.alicetrix,com">
-                    <img class="img-fluid" src="./lAbout_files/Alicetrixlogoblack.png" width="150" alt="">
+                <a class="navbar-brand" href="https://www.alicetrix.com">
+                    <img class="img-fluid" src="./About_files/Alicetrixlogoblack.png" width="150" alt="">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav mr-auto">
