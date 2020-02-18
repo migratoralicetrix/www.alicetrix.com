@@ -16,21 +16,22 @@
         <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:black">
 
             <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+             
                 <a class="navbar-brand" href="https://www.alicetrix.com">
                     <img class="img-fluid" src="./About_files/Alicetrixlogoblack.png" width="150" alt="">
                 </a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav">
 
                             <li class="nav-item">
                                 <a class="nav-item nav-link" href="https://www.alicetrix.com">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
 
-                                <a class="nav-item nav-link" href="./">Help3</a>
+                                <a class="nav-item nav-link" href="./">Help4<span class="sr-only">(current)</span></a>
                             </li>
 
                     </ul>
