@@ -1,7 +1,9 @@
 <!-- saved from url=(0033)http://localhost:50510/Home/About -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+              <base href="https://www.alicetrix.com/" target="_blank">
 
-    <link href="./About_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-0Mou2qXGeXK7k/Ue/a1hspEVcEP2zCpoQZw8/MPeUgISww+VmDJcy2ri9tX0a6iy" crossorigin="anonymous">
+
+    <link href="base/about/About_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-0Mou2qXGeXK7k/Ue/a1hspEVcEP2zCpoQZw8/MPeUgISww+VmDJcy2ri9tX0a6iy" crossorigin="anonymous">
     <style>
 
       
@@ -11,7 +13,6 @@
 <body>
 
     <header>
-          <base href="https://www.alicetrix.com/" target="_blank">
 
         <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:black">
 
@@ -50,7 +51,7 @@
 
 
     <div class="container">
-        <script type="text/javascript" src="./About_files/jquery-1.7.1.min.js.download"></script>
+        <script type="text/javascript" src="base/about/About_files/jquery-1.7.1.min.js.download"></script>
 
 
 
@@ -59,24 +60,24 @@
     <div class="col-lg-4">
 
         <div id="navbar1" class="nav nav-pills bg-light">
-            <a id="Introduction" class="nav-link active" href="./Help/Introduction.htm" target="myframe">Introduction</a>
-            <a id="Setup" class="nav-link" href="./Help/Setup.htm" target="myframe">Setup</a>
-            <a id="GoogleOnetime" class="nav-link ml-3 my-1" href="./Help/GoogleOneTimeSetup.htm" target="myframe">Google Onetime Configuration</a>
-            <a id="BoxOnetime" class="nav-link ml-3 my-1" href="./Help/BoxOneTimeAuth.html" target="myframe">Box Onetime Configuration</a>
-            <a id="OneDriveOnetime" class="nav-link ml-3 my-1" href="./Help/OneDriveOneTimeSetup.html" target="myframe">OneDrive &amp; SharePoint Onetime Configuration</a>
-            <a id="Authentication" class="nav-link ml-3 my-1" href="./Help/Authentication.html" target="myframe">Authentication</a>
-            <a id="Remediation" class="nav-link" href="./Help/Remediation.html" target="myframe">Remediation</a>
-            <a id="Migration" class="nav-link" href="./Help/Migration.html" target="myframe">Migration</a>
-            <a id="Advanced" class="nav-link ml-3 my-1" href="./Help/MigrationAdvanced.html" target="myframe">Advanced Concepts</a>
-            <a id="Reports" class="nav-link" href="./Help/Reports.html" target="myframe">Reports</a>
-            <a id="Admin" class="nav-link" href="./Help/Admin.html" target="myframe">Admin</a>
+            <a id="Introduction" class="nav-link active" href="base/about/Help/Introduction.htm" target="myframe">Introduction</a>
+            <a id="Setup" class="nav-link" href="base/about/Help/Setup.htm" target="myframe">Setup</a>
+            <a id="GoogleOnetime" class="nav-link ml-3 my-1" href="base/about/Help/GoogleOneTimeSetup.htm" target="myframe">Google Onetime Configuration</a>
+            <a id="BoxOnetime" class="nav-link ml-3 my-1" href="base/about/Help/BoxOneTimeAuth.html" target="myframe">Box Onetime Configuration</a>
+            <a id="OneDriveOnetime" class="nav-link ml-3 my-1" href="base/about/Help/OneDriveOneTimeSetup.html" target="myframe">OneDrive &amp; SharePoint Onetime Configuration</a>
+            <a id="Authentication" class="nav-link ml-3 my-1" href="base/about/Help/Authentication.html" target="myframe">Authentication</a>
+            <a id="Remediation" class="nav-link" href="base/about/Help/Remediation.html" target="myframe">Remediation</a>
+            <a id="Migration" class="nav-link" href="base/about/Help/Migration.html" target="myframe">Migration</a>
+            <a id="Advanced" class="nav-link ml-3 my-1" href="base/about/Help/MigrationAdvanced.html" target="myframe">Advanced Concepts</a>
+            <a id="Reports" class="nav-link" href="base/about/Help/Reports.html" target="myframe">Reports</a>
+            <a id="Admin" class="nav-link" href="base/about/Help/Admin.html" target="myframe">Admin</a>
 
         </div>
     </div>
     <div class="col-lg-8">
         <div class="embed-responsive embed-responsive-1by1">
 
-            <iframe id="frame001" class="embed-responsive-item" name="myframe" src="./About_files/Introduction.html"></iframe>
+            <iframe id="frame001" class="embed-responsive-item" name="myframe" src="base/about/Help/Introduction.html"></iframe>
         </div>
     </div>
 </div>
@@ -172,16 +173,16 @@
             </footer></div>
         
   
-    <script src="./About_files/jquery.min.js.download"></script>
-    <script src="./About_files/popper.min.js.download"></script>
-    <script src="./About_files/jquery.unobtrusive-ajax.min.js.download"></script>
-    <script src="./About_files/bootstrap.min.js.download"></script>
+    <script src="base/about/About_files/jquery.min.js.download"></script>
+    <script src="base/about/About_files/popper.min.js.download"></script>
+    <script src="base/about/About_files/jquery.unobtrusive-ajax.min.js.download"></script>
+    <script src="base/about/About_files/bootstrap.min.js.download"></script>
 
     
 
 
 <!-- Visual Studio Browser Link -->
-<script type="text/javascript" src="./About_files/browserLink" async="async" id="__browserLink_initializationData" data-requestid="a2a43851a8b24832bc66dd5e5110abde" data-requestmappingfromserver="False"></script>
+<script type="text/javascript" src="base/about/About_files/browserLink" async="async" id="__browserLink_initializationData" data-requestid="a2a43851a8b24832bc66dd5e5110abde" data-requestmappingfromserver="False"></script>
 <!-- End Browser Link -->
 
 
