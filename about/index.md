@@ -4,10 +4,7 @@
 
     <!-- <link href="./About_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-0Mou2qXGeXK7k/Ue/a1hspEVcEP2zCpoQZw8/MPeUgISww+VmDJcy2ri9tX0a6iy" crossorigin="anonymous">
     -->
-    <style>
-
-      
-    </style>
+  
 
 </head>
 <body>
@@ -26,12 +23,12 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav mr-auto">
 
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-item nav-link" href="https://www.alicetrix.com">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
 
-                                <a class="nav-item nav-link" href="./">Help</a>
+                                <a class="nav-item nav-link" href="./">Help1</a>
                             </li>
 
                     </ul>
