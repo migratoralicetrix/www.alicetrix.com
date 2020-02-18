@@ -1,6 +1,6 @@
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- <link href="./About_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-0Mou2qXGeXK7k/Ue/a1hspEVcEP2zCpoQZw8/MPeUgISww+VmDJcy2ri9tX0a6iy" crossorigin="anonymous">
     -->
@@ -20,14 +20,14 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="https://alicetrix.com">
+                <a class="navbar-brand" href="https://www.alicetrix.com">
                     <img class="img-fluid" src="./About_files/Alicetrixlogoblack.png" width="150" alt="">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav mr-auto">
 
                             <li class="nav-item active">
-                                <a class="nav-item nav-link" href="https://alicetrix.com">Home<span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link" href="https://www.alicetrix.com">Home<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
 
