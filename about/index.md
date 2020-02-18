@@ -49,17 +49,17 @@
     </header>
 
 
-    <div class="container">
+<div class="container">
         <script type="text/javascript" src="./About_files/jquery-1.7.1.min.js.download"></script>
 
-<p>
+    <p>
     </p>
 
 
 <div class="row">
-    <div class="col-xl-2 bg-light">
+    <div class="col-xl-2">
 
-        <div id="navbar1" class="nav nav-pills">
+        <div id="navbar1" class="nav nav-pills bg-light">
             <a id="Introduction" class="nav-link active" href="./Help/Introduction.htm" target="myframe">Introduction</a>
             <a id="Setup" class="nav-link" href="./Help/Setup.htm" target="myframe">Setup</a>
             <a id="GoogleOnetime" class="nav-link ml-3 my-1" href="./Help/GoogleOneTimeSetup.htm" target="myframe">Google Onetime Configuration</a>
@@ -81,6 +81,7 @@
         </div>
     </div>
 </div>
+
 <script>
     $(document).ready(function () {
 
@@ -109,7 +110,7 @@
 
 
 
-        <hr>
+    <hr>
         <footer>
             <div class="row">
 
@@ -165,14 +166,14 @@
 
                 </div>
              
-            </div>
 
                     
                        
                      
-            </footer></div>
+            </footer>
+        </div>
         
-  
+    </hr>
     <script src="./About_files/jquery.min.js.download"></script>
     <script src="./About_files/popper.min.js.download"></script>
     <script src="./About_files/jquery.unobtrusive-ajax.min.js.download"></script>
@@ -180,7 +181,7 @@
 
     
 
-
+</div>
 <!-- Visual Studio Browser Link -->
 <script type="text/javascript" src="./About_files/browserLink" async="async" id="__browserLink_initializationData" data-requestid="a2a43851a8b24832bc66dd5e5110abde" data-requestmappingfromserver="False"></script>
 <!-- End Browser Link -->
