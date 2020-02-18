@@ -26,9 +26,9 @@
                             <li class="nav-item">
                                 <a class="nav-item nav-link" href="https://www.alicetrix.com">Home</a>
                             </li>
-                            <li class="nav-item active">
+                            <li class="nav-item">
 
-                                <a class="nav-item nav-link" href="./">Help1</a>
+                                <a class="nav-item nav-link" href="./">Help2</a>
                             </li>
 
                     </ul>
