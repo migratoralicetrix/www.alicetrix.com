@@ -58,7 +58,7 @@
 <div class="row">
     <div class="col-xl-2">
 
-        <div id="navbar1" class="nav nav-pills bg-light">
+        <div id="navbar1" class="nav nav-pills">
             <a id="Introduction" class="nav-link active" href="./Help/Introduction.htm" target="myframe">Introduction</a>
             <a id="Setup" class="nav-link" href="./Help/Setup.htm" target="myframe">Setup</a>
             <a id="GoogleOnetime" class="nav-link ml-3 my-1" href="./Help/GoogleOneTimeSetup.htm" target="myframe">Google Onetime Configuration</a>
