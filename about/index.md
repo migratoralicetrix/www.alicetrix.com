@@ -76,7 +76,7 @@
     <div class="col-lg-8">
         <div class="embed-responsive embed-responsive-1by1">
 
-            <iframe id="frame001" class="embed-responsive-item" name="myframe" src="./Help/Introduction.html"></iframe>
+            <iframe id="frame001" class="embed-responsive-item" name="myframe" src="./Help/Introduction.htm"></iframe>
         </div>
     </div>
 </div>
