@@ -56,7 +56,7 @@
 
 
 <div class="row">
-    <div class="col-lg-4">
+    <div class="col-xl-2">
 
         <div id="navbar1" class="nav nav-pills bg-light">
             <a id="Introduction" class="nav-link active" href="./Help/Introduction.htm" target="myframe">Introduction</a>
@@ -73,7 +73,7 @@
 
         </div>
     </div>
-    <div class="col-lg-8">
+    <div class="col-xl-10">
         <div class="embed-responsive embed-responsive-1by1">
 
             <iframe id="frame001" class="embed-responsive-item" name="myframe" src="./Help/Introduction.htm"></iframe>
