@@ -1,4 +1,3 @@
-<!-- saved from url=(0033)http://localhost:50510/Home/About -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 
@@ -56,7 +55,7 @@
 
 
 <div class="row">
-    <div class="col-xl-2">
+    <div class="col-xl-2 bg-light">
 
         <div id="navbar1" class="nav nav-pills">
             <a id="Introduction" class="nav-link active" href="./Help/Introduction.htm" target="myframe">Introduction</a>
