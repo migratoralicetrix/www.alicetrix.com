@@ -24,7 +24,7 @@
                     <ul class="navbar-nav mr-auto">
 
                             <li class="nav-item ">
-                                <a class="nav-item nav-link" href="https://www.alicetrix,com">Home</a>
+                                <a class="nav-item nav-link" href="https://www.alicetrix.com">Home</a>
                             </li>
                             <li class="nav-item active">
 
