@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Installation</title>
+</head>
+<body>
+    <!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
+    <h1>Installation</h1>
+    <p>Note: Low or Medium Azure VM Admin Expertise Level required.</p>
+    <p>Below is the recommended setup for your VM when you deploy it from marketplace:</p>
+    <h2>Deploy Virtual Machine from Marketplace</h2>
+    <p>Alicetrix Enterprise Cloud File Migrator software comes as a part of your Azure Marketplace Virtual Machine instance. Hence, login into your Azure portal as an Admin who has access to deploy new VMs and search in Marketplace for &ldquo;Alicetrix Enterprise Cloud Migrator&rdquo; to deploy the VM.</p>
+    <p><strong>Use a VM size of at least 2 core, 4 GB RAM, Premium SSD and 3600 IOPS or higher. </strong></p>
+    <p>Tip: Prices for our software do not change due to deployment of VM of different size. In most cases, high VM capacity is not required. Additionally, Alicetrix does not typically requires large Hard Drive.</p>
+    <p>Do not enable Availability sets or availability zones for this VM.</p>
+    <p>In network configuration, Preferred mechanism is to <strong>enable HTTPS (443) port</strong>. This will allow for the software to be accessible from anywhere outside of VM. Other than this <strong>enable RDP port</strong> for Remote Desktop Access option. We recommend no other ports to be open or allowed to ensure security. If you have a firewall policy, you can bring this application under that network firewall rules, however you should allow access for web from VM, if access for web from VM is blocked due to any firewall rules next step won&rsquo;t execute, and software won&rsquo;t run if it is disabled later. &nbsp;&nbsp;</p>
+    <h2>Software activation after Virtual Machine deployment</h2>
+    <p>After VM deployment, software automatically deploys itself on HTTPS port (this process may take up to 10 mins after VM deployment and Azure do not tracks it as a part of deployment procedure). Once software is deployed, you will be able to access URL if HTTPS port are open, just enter "https://(VM IP address or VM web name):443" to access the web application.</p>
+    <p>Also note, HTTPS web app installation requires specific certification to be attached to URL.</p>
+    <p>Software installs a locally signed certificate on your VM during deployment. Hence, if you are accessing the application from within inside VM (after RDP), you won&rsquo;t get certificate error.</p>
+    <p>This is an optional step, and depends on your organization policy and consideration and ease of usability: To avoid web browser warning sign for invalid certificate, when accessing from any other machine other than VM, you can enable it using standard procedure for installing a valid signed certificate for IIS Server (use help on Microsoft Website) or you may just want to install local certificate on your machine as Trusted CA to avoid this message. On your local machine, from where you are intending to use  web app, it can be done by downloading the certificate (when error message is shown) from web browser and installing it in your local machine Trusted CA folder (use steps outlined on Internet depending on your local machine OS).</p>
+    <h2>Application User Access and Sign-In</h2>
+    <p>You are required to sign in using a valid user ID into web application to access any features of application. User IDs can only be created using a local console software available on VM.</p>
+    <p>Hence, for this purpose login in your VM just created using RDP and user ID/Password you used during VM creation.</p>
+    <p>Once in VM, Open command prompt, type &ldquo;cd C:\Scripts&rdquo;. Type &ldquo;Dir&rdquo;. You will find a batch file. Type full name of file in Command prompt to run it. It will ask for User ID and Password for new user, you can enter to add the user ID/password into Database. You can use this console application to maintain user Ids in Alicetrix Enterprise Cloud Migrator application. It is important to note that you can add multiple user Ids but this <strong>application is a Single Migration Instance application</strong>, hence if a Migration has already started or running, system won&rsquo;t allow for any additional migration during migration process by any other user. Also, every user share same connection configuration done for connecting to any of the Cloud Providers (Ex. Google, Box, OneDrive). Hence anyone can start, stop or check on migration status.</p>
+    <h2>Security Considerations</h2>
+    <p>Once user IDs are created and ready to be used, it is recommended to enable Two-factor authentication. Two-factor authentication can be enabled by any individual user after logging into the web application, going onto their account page and following steps for enabling two factor authentications.</p>
+    <p>During Migration contents are never stored on Hard Drive of VM. However, administrators who create VM or have access to RDP for VM technically have access to all database that contains user info, client ids/secret on Alicetrix. Hence, ensure Administrators who have access to these VM should by policy have enterprise administrator access to Google, Box, Microsoft OneDrive or SharePoint Cloud environment and contents as well. This is not required step but ensures consistency of your enterprise organization security policy. Vice versa is not required.</p>
+    <p>Once work with software is over, pull out reports from the software and use admin console of web app to clear any client Ids and secrets, uploaded Json files etc. before disabling VM and or archiving it.</p>
+    <p>Additionally access for all client ids generated for respective tenants/cloud provider should be disabled if not in use. &nbsp;</p>
+    <p>Overall, this is your instance, proper security maintenance and clean-up is your responsibility.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+</body>
+</html>
