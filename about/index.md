@@ -66,6 +66,8 @@
 
         <div id="navbar1" class="nav nav-pills bg-light">
             <a id="Introduction" class="nav-link active" href="./Help/Introduction.htm" target="myframe">Introduction</a>
+            <a id="Installation" class="nav-link" href="./Help/Installation.html" target="myframe">Installation</a>
+
             <a id="Setup" class="nav-link" href="./Help/Setup.htm" target="myframe">Setup</a>
             <a id="GoogleOnetime" class="nav-link ml-3 my-1" href="./Help/GoogleOneTimeSetup.htm" target="myframe">Google Onetime Configuration</a>
             <a id="BoxOnetime" class="nav-link ml-3 my-1" href="./Help/BoxOneTimeAuth.html" target="myframe">Box Onetime Configuration</a>
