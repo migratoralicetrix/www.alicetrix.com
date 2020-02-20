@@ -78,7 +78,7 @@
             <a id="Advanced" class="nav-link ml-3 my-1" href="./Help/MigrationAdvanced.html" target="myframe">Advanced Concepts</a>
             <a id="Reports" class="nav-link" href="./Help/Reports.html" target="myframe">Reports</a>
             <a id="Admin" class="nav-link" href="./Help/Admin.html" target="myframe">Admin</a>
-            <a id="PrivacyPolicy" class="nav-link" href="./Help/privacypolicy.html" target="myframe">PrivacyPolicy</a>
+            <a id="PrivacyPolicy" class="nav-link" href="./Help/privacypolicy.html" target="myframe">Privacy Policy</a>
 
 
         </div>
