@@ -106,7 +106,7 @@
                 <p>
                     <font style=" color:red">
                         </font></p><h3><font style=" color:red">Learn to migrate your data at a blazing speed.</font></h3><font style=" color:red">
-                        <a class="btn btn-lg btn-primary" href="http://localhost:50510/Home/About" role="button"> Learn More   </a>
+                        <a class="btn btn-lg btn-primary" href="./About" role="button"> Learn More   </a>
                     </font>
                 <p></p>
             </div>
