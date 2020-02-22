@@ -132,8 +132,9 @@
 
     <div class="row jumbotron">
         <div class="col-md-7">
-            <h2 class="featurette-heading">Alicetrix's Cloud File Migrator <span class="text-muted"> built for your specific needs </span></h2>
-            <p class="lead">Our product Cloud File Migrator specializes in end to end tools and process for a seamless Cloud Migration for our customers. We believe migration of contents from Cloud providers should be fast &amp; simple for our customers! Hence we hide the complexity and try to bring a Software that takes care of most of your requirements.</p>
+            <h2 class="featurette-heading">Alicetrix's Enterprise Cloud File Migrator <span class="text-muted"> built for your specific needs </span></h2>
+            <p class="lead"> Our Alicetrix's Enterprise Cloud File Migrator specializes in cutting edge tools and processes for a seamless cloud migration for our clients. We believe that the migration of files should be fast and simple. So, we try not to make it so complex while bringing a software that can assist you with your transfer.
+</p>
         </div>
         <div class="col-md-5">
             <img class="featurette-image img-thumbnail img-fluid mx-auto" src="./localhost_files/Fast.jpg" alt="Generic placeholder image">
@@ -148,15 +149,15 @@
         <div class="col-lg-6">
             <img class="img-fluid " src="./localhost_files/box_logo.png" alt="" width="120">
             <h2>Box</h2>
-            <h5>Migrate contents from Box, Create new folders, Sync permissions, Enable/Disable Account(s)</h5>
-            <h6> Current Software Offerings are: <b>BoxToOneDrive</b> Migrator </h6>
+            <h5>Migrate contents from Box, Create new folders, Migrate permissions, Get file content reports from Box</h5>
+            <h6> Current Software Offerings are: <b>Box To OneDrive and SharePoint Online</b> Migrator </h6>
             <p><a class="btn btn-secondary" href="./about" role="button">View details »</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-6">
             <img class="img-fluid" src="./localhost_files/google.jpg" alt="" width="150">
             <h2>Google Drive</h2>
-            <h5>Migrate contents from Google Drive, Create new folders, Sync permissions, Get forms and sheet data in Word document and excels</h5>
-            <h6> Current Software Offerings are: <b>GoogleDrivetoOneDrive</b> Migrator </h6>
+            <h5>Migrate contents from Google Drive, Create new folders, Migrate permissions, Get file content reports from Google Drive, and convert your Google forms, sheets, and docs into Microsoft Office documents</h5>
+            <h6> Current Software Offerings are: <b>Google Drive to OneDrive and SharePoint Online</b> Migrator </h6>
             <p><a class="btn btn-secondary" href="./About" role="button">View details »</a></p>
         </div><!-- /.col-lg-4 -->
       
@@ -166,8 +167,8 @@
 
     <div class="row  jumbotron">
         <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Offering Fast, Secure, Auto Scalable, Isloated Tenancy, Managed Migration Process <span class="text-muted"> options for your data migration.</span></h2>
-            <p class="lead"> We understand that customers needs a fast, reliable product for data migration, we also understand that it is customer's data, hence instead of a typical multi-tenant architecture a SaaS product provider follows we offer a simple, dedicated auto-scalable and isolated tenant for your content migration. You choose and we deploy and let you manage your migration by powerful features built in the tool. We also have deployed a process that helps you follow step-by-step process of cloud deployment. </p>
+            <h2 class="featurette-heading">Offering Fast, Secure, Auto Scalable, Isloated Tenancy, Managed Migration Process <span class="text-muted"> options for your file migration.</span></h2>
+            <p class="lead"> We understand that customers need a fast, reliable product for file migration. We also understand that it is customer's data, so instead of a typical shared-tenant architecture a SaaS company usually provides, we offer a simple, dedicated, secure, scalable and isolated server utlizing powerful capabilities of Windows Server for your content migration. You choose cloud server sizes and we have enabled DevOps in Cloud to automatically deploy and let you manage your migration. Additionally, all security related configurations to access multi-cloud environment are your's in the server. Hence to a provider like Google or Box, it is not a third-party or partner migrating the contents, that ensures higher service levels. We have also enabled a process that includes remediation steps that helps you follow step-by-step process of migration. A faster reupload option is available that ensures business is not disrupted when you migrate your data. You stay in full control of your migration thanks to our easy to navigate interactive user interface. You won't even have to worry about messing something up in the setup thanks to our clear and easy to read instructions. And if anything goes wrong, report the issue to us and our expert team will try their very best to assist as soon as possible. </p>
         </div>
         <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" src="./localhost_files/wordart.png" alt="Generic placeholder image">
@@ -220,9 +221,8 @@
 
                                 <p>
                                     <span class="badge badge-warning">Safe Harbor</span>
-                                    SOFTWARE HAS BEEN TESTED AND VALIDATED IN CONFINES OF GENERIC REQUIREMENTS. YOU ARE EXPECTED TO TEST AND ENSURE SOFTWARE IS ABLE TO MEET YOUR REQUIREMENTS.
-                                    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-                                    Please direct all your queries  on know-how of application to company support email address.NO SLA Applies.
+                                                                       Alicetrix Enterprise File Migrator software has been tested and validated in confines of generic requirements. You are expected to test and ensure software is able to meet your requirements. The software is provided "As is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software. Please direct all your queries on know-how of application to company support email address.NO SLA Applies.
+
                                 </p>
                             </div>
                         </div>
