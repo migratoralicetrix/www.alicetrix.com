@@ -72,7 +72,7 @@
             <div class="carousel-caption d-none d-md-block">
                 <p>
                     </p><h4> Learn How Alicetrix's Cloud Migrator Software can migrate your data.</h4>
-                    <a class="btn btn-lg btn-primary" href="./About" role="button"> Learn More   </a>
+                    <a class="btn btn-lg btn-primary" href="./about" role="button"> Learn More   </a>
                 <p></p>
             </div>
 
@@ -83,7 +83,7 @@
                 <div class="carousel-caption d-none d-md-block">
                     <p>
                         </p><h5> Learn about powerful features of Software</h5>
-                        <a class="btn btn-lg btn-primary" href="./About" role="button"> Learn More   </a>
+                        <a class="btn btn-lg btn-primary" href="./about" role="button"> Learn More   </a>
                     <p></p>
                 </div>
             </div>
@@ -96,7 +96,7 @@
 
                         Learn how Data Security is implemented with our hosting partners.
                     </h4>
-                    <a class="btn btn-lg btn-primary" href="./About" role="button"> Learn More   </a>
+                    <a class="btn btn-lg btn-primary" href="./about" role="button"> Learn More   </a>
                 <p></p>
             </div>
         </div>
@@ -106,7 +106,7 @@
                 <p>
                     <font style=" color:red">
                         </font></p><h3><font style=" color:red">Learn to migrate your data at a blazing speed.</font></h3><font style=" color:red">
-                        <a class="btn btn-lg btn-primary" href="./About" role="button"> Learn More   </a>
+                        <a class="btn btn-lg btn-primary" href="./about" role="button"> Learn More   </a>
                     </font>
                 <p></p>
             </div>
