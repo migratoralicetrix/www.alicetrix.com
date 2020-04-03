@@ -131,19 +131,20 @@
 <div class="container-fluid">
 
     <div class="row jumbotron">
-        <div class="col-md-6">
-            <h2 class="featurette-heading">Alicetrix's Enterprise Cloud File Migrator <span class="text-muted"> built for your specific needs </span></h2>
-            <p class="lead"> Our Alicetrix's Enterprise Cloud File Migrator specializes in cutting edge tools and processes for a seamless cloud migration for our clients. We believe that the migration of files should be fast and simple. So, we try not to make it so complex while bringing a software that can assist you with your transfer.
-</p>
-        </div>
-        <div class="col-md-6">
+    <div class="col-md-6">
            <!-- <img class="featurette-image img-thumbnail img-fluid mx-auto" src="./localhost_files/Fast.jpg" alt="Generic placeholder image"> -->
-     <video height="300">
+     <video height="300" autoplay>
       <source src="about/Help/video/Alicetrix Video 1.mp4" type="video/mp4">
      <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
     </video>
         </div>
+        <div class="col-md-6">
+            <h2 class="featurette-heading">Alicetrix's Enterprise Cloud File Migrator <span class="text-muted"> built for your specific needs </span></h2>
+            <p class="lead"> Our Alicetrix's Enterprise Cloud File Migrator specializes in cutting edge tools and processes for a seamless cloud migration for our clients. We believe that the migration of files should be fast and simple. So, we try not to make it so complex while bringing a software that can assist you with your transfer.
+</p>
+        </div>
+        
     </div>
     <!-- Three columns of text below the carousel -->
     <!-- START THE FEATURETTES -->
