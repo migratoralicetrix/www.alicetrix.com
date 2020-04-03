@@ -162,7 +162,7 @@
            <!-- <img class="featurette-image img-thumbnail img-fluid mx-auto" src="./localhost_files/Fast.jpg" alt="Generic placeholder image"> -->
 
 
-    <video controls autoplay>
+    <video width="300" controls autoplay>
       <source src="about/Help/video/Alicetrix Video 1.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
