@@ -137,7 +137,12 @@
 </p>
         </div>
         <div class="col-md-5">
-            <img class="featurette-image img-thumbnail img-fluid mx-auto" src="./localhost_files/Fast.jpg" alt="Generic placeholder image">
+           <!-- <img class="featurette-image img-thumbnail img-fluid mx-auto" src="./localhost_files/Fast.jpg" alt="Generic placeholder image"> -->
+     <video height="300" controls>
+      <source src="about/Help/video/Alicetrix Video 1.mp4" type="video/mp4">
+     <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+    </video>
         </div>
     </div>
     <!-- Three columns of text below the carousel -->
