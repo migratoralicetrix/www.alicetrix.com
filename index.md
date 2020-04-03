@@ -2,7 +2,29 @@
 
     <link href="./localhost_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-0Mou2qXGeXK7k/Ue/a1hspEVcEP2zCpoQZw8/MPeUgISww+VmDJcy2ri9tX0a6iy" crossorigin="anonymous">
     <style>
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+}
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
 
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
       
     </style>
 
@@ -138,10 +160,13 @@
         </div>
     <div class="col-md-6">
            <!-- <img class="featurette-image img-thumbnail img-fluid mx-auto" src="./localhost_files/Fast.jpg" alt="Generic placeholder image"> -->
+    <div class="video-container">
+
     <video controls autoplay>
       <source src="about/Help/video/Alicetrix Video 1.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
+    </div>
         </div>
 
         
