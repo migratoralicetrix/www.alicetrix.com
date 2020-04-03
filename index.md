@@ -138,10 +138,9 @@
         </div>
     <div class="col-md-6">
            <!-- <img class="featurette-image img-thumbnail img-fluid mx-auto" src="./localhost_files/Fast.jpg" alt="Generic placeholder image"> -->
-    <video  height="300" controls>
+    <video  height="300" controls autoplay>
       <source src="about/Help/video/Alicetrix Video 1.mp4" type="video/mp4">
-     <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
+      Your browser does not support the video tag.
     </video>
         </div>
 
