@@ -210,16 +210,16 @@
             </footer></div>
         
   
-    <script src="./localhost_files/jquery.min.js.download"></script>
-    <script src="./localhost_files/popper.min.js.download"></script>
-    <script src="./localhost_files/jquery.unobtrusive-ajax.min.js.download"></script>
-    <script src="./localhost_files/bootstrap.min.js.download"></script>
+    <script src="/localhost_files/jquery.min.js.download"></script>
+    <script src="/localhost_files/popper.min.js.download"></script>
+    <script src="/localhost_files/jquery.unobtrusive-ajax.min.js.download"></script>
+    <script src="/localhost_files/bootstrap.min.js.download"></script>
 
     
 
 
 <!-- Visual Studio Browser Link -->
-<script type="text/javascript" src="./localhost_files/browserLink" async="async" id="__browserLink_initializationData" data-requestid="1fa2c29fa5d14f32ba15b848f1d33779" data-requestmappingfromserver="False"></script>
+<script type="text/javascript" src="/localhost_files/browserLink" async="async" id="__browserLink_initializationData" data-requestid="1fa2c29fa5d14f32ba15b848f1d33779" data-requestmappingfromserver="False"></script>
 <!-- End Browser Link -->
 
 
