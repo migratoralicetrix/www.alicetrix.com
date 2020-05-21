@@ -1,51 +1,7 @@
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <link href="./About_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-0Mou2qXGeXK7k/Ue/a1hspEVcEP2zCpoQZw8/MPeUgISww+VmDJcy2ri9tX0a6iy" crossorigin="anonymous">
-    <style>
-
-      
-    </style>
-
-</head>
 <body>
 
-    <header>
-
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:black">
-
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="https://www.alicetrix.com">
-                    <img class="img-fluid" src="./About_files/Alicetrixlogoblack.png" width="150" alt="">
-                </a>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav mr-auto">
-
-                            <li class="nav-item ">
-                                <a class="nav-item nav-link" href="https://www.alicetrix.com">Home</a>
-                            </li>
-                            <li class="nav-item active">
-
-                                <a class="nav-item nav-link" href="./">Help <span class="sr-only">(current)</span></a>
-                            </li>
-
-                    </ul>
-
-
-                    
-  
-                   
-
-                </div>
-
-
-            </div>
-
-        </nav>
-
-    </header>
+   
 <div class="container">
     <p>
         &nbsp;
