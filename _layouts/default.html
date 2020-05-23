@@ -61,10 +61,18 @@
                     <img class="img-fluid" src="/localhost_files/Alicetrixlogoblack.png" width="150" alt="">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav mr-auto">
+                    <ul id="navx" class="navbar-nav mr-auto">
 
                             <li class="nav-item active">
                                 <a class="nav-item nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+
+                              <a class="nav-item nav-link" href="/Services/">Services</a>
+                            </li>
+                            <li class="nav-item">
+
+                              <a class="nav-item nav-link" href="/AxO/">Migrator (AxO)</a>
                             </li>
                             <li class="nav-item">
 
@@ -72,7 +80,15 @@
                             </li>
 
                     </ul>
-
+                    <script>
+                      $(document).ready(function () {
+                  
+                          $("#navx li").click(function () {
+                              $("#navx li").removeClass("active");
+                              $(this).addClass("active");
+                          });
+                      });
+                  </script>
 
                     
   

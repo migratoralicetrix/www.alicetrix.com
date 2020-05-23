@@ -87,7 +87,7 @@
             <div class="col-md-7">
             <h3 class="featurette-heading">Alicetrix's Enterprise Cloud File Migrator <span class="text-muted"> built for your specific needs </span></h3>
             <p class="lead"> Our Alicetrix's Enterprise Cloud File Migrator specializes in cutting edge tools and processes for a seamless cloud migration for our clients. We believe that the migration of files should be fast and simple. So, we try not to make it so complex while bringing a software that can assist you with your transfer.
-</p>
+            </p>
         </div>
     <div class="col-md-5">
         <div align="center">
