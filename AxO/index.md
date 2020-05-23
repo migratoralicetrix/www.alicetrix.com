@@ -9,7 +9,7 @@
         </div>
     <div class="col-md-7">
         <div align="center">
-          <img src="./localhosr_files/AlicetrixGraphics.PNG" width="200">           
+          <img class="img-fluid" src="/localhost_files/AlicetrixGraphics.PNG" width="200">           
         </div>   
     </div>        
 </div>
