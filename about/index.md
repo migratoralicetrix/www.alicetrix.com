@@ -1,9 +1,11 @@
 
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-<div class="row">
-    <div class="col-xl-12"> 
-    </div>
+<div class="container">
+<p>
+      &nbsp;
+
+</p>
 </div>
 <div class="row">
     <div class="col-xl-2">
