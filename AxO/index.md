@@ -31,7 +31,22 @@
             </div>
         </div><!-- /.col-lg-4 -->       
     </div><!-- /.row -->
-
+  <div class="row">
+        <div class="col-lg-6">
+            <img class="img-fluid " src="/localhost_files/box_logo.png" alt="" width="120">
+            <h2>Box</h2>
+            <h5>Migrate contents from Box, Create new folders, Migrate permissions, Get file content reports from Box</h5>
+            <h6> Current Software Offerings are: <b>Box To OneDrive and SharePoint Online</b> Migrator </h6>
+            <p><a class="btn btn-secondary" href="/about" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-6">
+            <img class="img-fluid" src="/localhost_files/google.jpg" alt="" width="150">
+            <h2>Google Drive</h2>
+            <h5>Migrate contents from Google Drive, Create new folders, Migrate permissions, Get file content reports from Google Drive, and convert your Google forms, sheets, and docs into Microsoft Office documents</h5>
+            <h6> Current Software Offerings are: <b>Google Drive to OneDrive and SharePoint Online</b> Migrator </h6>
+            <p><a class="btn btn-secondary" href="/about" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->      
+    </div><!-- /.row -->
 <div class="row">
         <div class="col-lg-12">
             <h2>Enabling Differentiating features:</h2>        

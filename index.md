@@ -99,27 +99,11 @@
     </div>        
 </div>
     <!-- Three columns of text below the carousel -->
-    <!-- START THE FEATURETTES -->
-    <div class="row">
-        <div class="col-lg-6">
-            <img class="img-fluid " src="./localhost_files/box_logo.png" alt="" width="120">
-            <h2>Box</h2>
-            <h5>Migrate contents from Box, Create new folders, Migrate permissions, Get file content reports from Box</h5>
-            <h6> Current Software Offerings are: <b>Box To OneDrive and SharePoint Online</b> Migrator </h6>
-            <p><a class="btn btn-secondary" href="./about" role="button">View details »</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-6">
-            <img class="img-fluid" src="./localhost_files/google.jpg" alt="" width="150">
-            <h2>Google Drive</h2>
-            <h5>Migrate contents from Google Drive, Create new folders, Migrate permissions, Get file content reports from Google Drive, and convert your Google forms, sheets, and docs into Microsoft Office documents</h5>
-            <h6> Current Software Offerings are: <b>Google Drive to OneDrive and SharePoint Online</b> Migrator </h6>
-            <p><a class="btn btn-secondary" href="./about" role="button">View details »</a></p>
-        </div><!-- /.col-lg-4 -->      
-    </div><!-- /.row -->
+    <!-- START THE FEATURETTES -->  
     <div class="row  jumbotron">
         <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Offering Fast, Secure, Auto Scalable, Isloated Tenancy, Managed Migration Process <span class="text-muted"> options for your file migration.</span></h2>
-            <p class="lead"> We understand that customers need a fast, reliable product for file migration. We also understand that it is customer's data, so instead of a typical shared-tenant architecture a SaaS company usually provides, we offer a simple, dedicated, secure, scalable and isolated server utlizing powerful capabilities of Windows Server for your content migration. You choose cloud server sizes and we have enabled DevOps in Cloud to automatically deploy and let you manage your migration. Additionally, all security related configurations to access multi-cloud environment are your's in the server. Hence to a provider like Google or Box, it is not a third-party or partner migrating the contents, that ensures higher service levels. We have also enabled a process that includes remediation steps that helps you follow step-by-step process of migration. A faster reupload option is available that ensures business is not disrupted when you migrate your data. You stay in full control of your migration thanks to our easy to navigate interactive user interface. You won't even have to worry about messing something up in the setup thanks to our clear and easy to read instructions. And if anything goes wrong, report the issue to us and our expert team will try their very best to assist as soon as possible. </p>
+            <h2 class="featurette-heading">Offering Fast, Secure, Auto Scalable, Isloated Tenancy, Managed Migration Process <span class="text-muted"> options for your Cloud migration.</span></h2>
+            <p class="lead"> We understand that customers need a fast, reliable product for migration. We also understand that it is customer's data, so instead of a typical shared-tenant architecture a SaaS company usually provides, we offer a simple, dedicated, secure, scalable and isolated server utlizing powerful capabilities of Windows Server for your content migration. You choose cloud server sizes and we have enabled DevOps in Cloud to automatically deploy and let you manage your migration. Additionally, all security related configurations to access multi-cloud environment are your's in the server. Hence to a provider like Google or Box, it is not a third-party or partner migrating the contents, that ensures higher service levels. We have also enabled a process that includes remediation steps that helps you follow step-by-step process of migration. A faster reupload option is available that ensures business is not disrupted when you migrate your data. You stay in full control of your migration thanks to our easy to navigate interactive user interface. You won't even have to worry about messing something up in the setup thanks to our clear and easy to read instructions. And if anything goes wrong, report the issue to us and our expert team will try their very best to assist as soon as possible. </p>
         </div>
         <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" src="./localhost_files/wordart.png" alt="Generic placeholder image">
