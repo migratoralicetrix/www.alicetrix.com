@@ -56,7 +56,7 @@
             </div>
         </div>
         <div class="carousel-item active">
-            <img class="fourth-slide img-fluid" src="./localhost_files/Alicetrix Graphics.png" alt="">
+            <img class="fourth-slide img-fluid" src="./localhost_files/AlicetrixGraphics.png" alt="">
             <div class="carousel-caption d-none d-md-block">
                 <p>
                     <font style=" color:red">
