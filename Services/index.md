@@ -12,16 +12,15 @@
     </div>
     <div class="row">
             <div class="col-lg-6">
-                <div class="lead">
-                    <p class="lead">We haveour own product for Migration from Environment GSuite to Cloud platform (Alicetrix Enterprise Migrator AxO: <strong><a href="https://azuremarketplace.microsoft.com/en-us/marketplace/apps/alicetrix.o365filemigrator">Microsoft Azure Marketplace Alicetrix</a>)</strong> . This ensures we can bring an end to end capability to our customer and enable customization to approach if required to do such migrations and implementations.</p>
-                    <p class="lead">Additionally for customers migrating to Azure cloud or Microsoft 365, we enable various templates for deployments based on our experience for different customer segments in areas of Infrastructure and Cloud security, offering end to end solution utilizing powers of Microsoft Security, Azure DevOps and Infrastructure Security Management platforms.</p>
-                </div>
-            </div><!-- /.col-lg-4 -->  
-            <div class="col-lg-6">
-                <div class="lead">
-                    <h3 class="featurette-heading"><strong> </strong></h3>
+            <div class="lead">
                         <p class="lead">We are experts in Digital Workplace (Microsoft 365) and Infrastructure solution (Azure), with our team experienced with migrating and supporting over 1+ Million users and 100,000 Servers in Cloud. We bring end to end capability for Cloud Migration and Support. To support our customers for workplace migration, we have gathered extensive capability in Infrastructure as a Code management platform using Azure DevOps and Graph API.</p>  
                          <p class="lead">We have a team of Infrastructure engineers and product developers who can support, consult, and do such migrations, deployment and support services on Azure and Microsoft 365 platform. Hence, services we bring for our customers are:</p>    
+                </div>               
+            </div><!-- /.col-lg-4 -->  
+            <div class="col-lg-6">
+                 <div class="lead">
+                    <p class="lead">We have our own product for Migration from Environment GSuite to Cloud platform (Alicetrix Enterprise Migrator AxO: <strong><a href="https://azuremarketplace.microsoft.com/en-us/marketplace/apps/alicetrix.o365filemigrator">Microsoft Azure Marketplace Alicetrix</a>)</strong> . This ensures we can bring an end to end capability to our customer and enable customization to approach if required to do such migrations and implementations.</p>
+                    <p class="lead">Additionally for customers migrating to Azure cloud or Microsoft 365, we enable various templates for deployments based on our experience for different customer segments in areas of Infrastructure and Cloud security, offering end to end solution utilizing powers of Microsoft Security, Azure DevOps and Infrastructure Security Management platforms.</p>
                 </div>
             </div><!-- /.col-lg-4 -->  
     </div><!-- /.row -->
