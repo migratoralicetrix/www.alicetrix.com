@@ -1,10 +1,10 @@
 
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-<p>
-      &nbsp;
-  </p> 
-
+<div class="row">
+    <div class="col-xl-12"> 
+    </div>
+</div>
 <div class="row">
     <div class="col-xl-2">
         <div id="navbar1" class="nav nav-pills bg-light">
