@@ -3,7 +3,7 @@
     <div class="row jumbotron">
             <div class="col-md-5">
                 <h3 class="featurette-heading"><strong>About us: </strong></h3>
-                <p class="lead"> Alicetrix was founded in 2017 to deliver our customers capabilities for migrating and supporting client workplace and infrastructure solutions. We are a dedicated list of Microsoft individuals who are trying to enable change for our customer on their Microsoft Cloud Journey. 
+                <p class="lead"> Alicetrix was founded in 2017 to deliver our customers capabilities for migrating and supporting client workplace and infrastructure solutions. We are a dedicated Microsoft experts who are trying to enable change for our customer on their Microsoft Cloud Journey. 
                 </p>
             </div>
             <div class="col-md-7">
@@ -28,7 +28,6 @@
             <div class="col-lg-12">         
                 <div class="lead">
                                        <h3 class="featurette-heading"><strong> We Offer: </strong></h3>
-
                     <ul>
                         <li><strong>Consulting Services for Migration and Transformation of Workplace and Infrastructure platforms.</strong></li>
                         <li><strong>Support Services for Managing Azure Infrastructure and Microsoft 365 Platform.</strong></li>
@@ -47,5 +46,7 @@
                 </div>
             </div><!-- /.col-lg-4 -->       
     </div>
+
+    
 
 </div>
