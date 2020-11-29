@@ -35,7 +35,7 @@
         <h6> Current Software Offerings are: <b>Exchange Online to Gmail, Exchange Online to Exchange Online</b> Migrator </h6>
         <p><a class="btn btn-secondary" href="/Home/About" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
-</div>    <!-- /.row -->
+</div>   
 
 <div class="row ">
     <div class="col-lg-6">
@@ -50,10 +50,7 @@
         <h6> Current Software Offerings are: <b>Box To OneDrive and SharePoint Online</b> Migrator </h6>
         <p><a class="btn btn-secondary" href="/home/about" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
-</div>     <!-- /.row -->
-
-
-
+</div>     
 
 <div class="row">
         <div class="col-lg-12">
