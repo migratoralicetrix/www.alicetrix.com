@@ -1,8 +1,8 @@
 <div class="row jumbotron">
         <div class="col-md-5">
-            <h3 class="featurette-heading"><strong>Our Solution: </strong></h3>
+         <h3 class="featurette-heading"><strong>Our Solution: </strong></h3>
             <p class="lead"> Alicetrix Enterprise Workplace Migrator (AxW) is for those who are concerned about security and speed. Migration of data from Cloud Content Management providers should be fast &amp; simple! So, we hide the complexity and try to bring a software that takes care of most of migration requirements. Our super-fast multi-threaded algorithms for upload ensure contents are migrated at a blazing speed, offering Fast, Secure, Scalable, Isolated &amp; Managed Migration Process for your workplace migration
-            Visit us at <a href="https://azuremarketplace.microsoft.com/en-us/marketplace/apps/alicetrix.o365filemigrator">Microsoft Azure Marketplace for Alicetrix</a>
+            Visit us at <a href="https://azuremarketplace.microsoft.com/en-us/marketplace/apps/alicetrix.o365filemigrator">Microsoft Azure Marketplace for Alicetrix</a>        
         </div>
         <div class="col-md-7">
             <div align="center">
@@ -17,6 +17,7 @@
             <h4 class="featurette-heading">Migrating Workplace contents from: </h4>
         </div>
 </div>
+
 <div class="row">
     <div class="col-lg-6">
         <img class="img-fluid " src="/localhost_files/newgmaillogo.0.jpg" alt="" width="200">
