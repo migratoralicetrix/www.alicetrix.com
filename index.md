@@ -32,17 +32,6 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="second-slide img-fluid" src="./localhost_files/Alicetrixb2.png" alt="">
-            <div class="container-fluid">
-                <div class="carousel-caption d-none d-md-block">
-                    <p>
-                        </p><h5> Learn about powerful features of Software</h5>
-                        <a class="btn btn-lg btn-primary" href="./about" role="button"> Learn More   </a>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
             <img class="third-slide img-fluid" src="./localhost_files/Alicetrixb3.png" alt="">
             <div class="carousel-caption d-none d-md-block">
                 <p>
@@ -85,16 +74,23 @@
 <div class="container-fluid">
     <div class="row jumbotron">
             <div class="col-md-7">
-            <h3 class="featurette-heading">Alicetrix's Enterprise Cloud File Migrator <span class="text-muted"> built for your specific needs </span></h3>
-            <p class="lead"> Our Alicetrix's Enterprise Cloud File Migrator specializes in cutting edge tools and processes for a seamless cloud migration for our clients. We believe that the migration of files should be fast and simple. So, we try not to make it so complex while bringing a software that can assist you with your transfer.
+            <h2 class="featurette-heading">Alicetrix's Cloud Digital Workplace Migrator <span class="text-muted"> built for your specific needs </span></h2>
+            <p class="lead">
+                Our Alicetrix's Enterprise Cloud Digital Workplace Migrator specializes in cutting edge tools and processes for a seamless cloud migration for our clients. We believe that the migration of digital workplace should be fast and simple. So, we try not to make it so complex while bringing a software that can assist you with your transfer.
             </p>
-        </div>
+          </div> 
+    </div>
     <div class="col-md-5">
         <div align="center">
+            <iframe width="420" height="315"
+            src="https://youtu.be/Tdqp4-2wB3Q?autoplay=1&mute=1">
+            </iframe>
+            <!--
             <video width="300" controls autoplay>
             <source src="about/Help/video/Alicetrix Video 1.mp4" type="video/mp4">
             Your browser does not support the video tag.
             </video>
+            -->
         </div>   
     </div>        
 </div>
@@ -102,8 +98,11 @@
     <!-- START THE FEATURETTES -->  
     <div class="row  jumbotron">
         <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Offering Fast, Secure, Auto Scalable, Isloated Tenancy, Managed Migration Process <span class="text-muted"> options for your Cloud migration.</span></h2>
-            <p class="lead"> We understand that customers need a fast, reliable product for migration. We also understand that it is customer's data, so instead of a typical shared-tenant architecture a SaaS company usually provides, we offer a simple, dedicated, secure, scalable and isolated server utlizing powerful capabilities of Windows Server for your content migration. You choose cloud server sizes and we have enabled DevOps in Cloud to automatically deploy and let you manage your migration. Additionally, all security related configurations to access multi-cloud environment are your's in the server. Hence to a provider like Google or Box, it is not a third-party or partner migrating the contents, that ensures higher service levels. We have also enabled a process that includes remediation steps that helps you follow step-by-step process of migration. A faster reupload option is available that ensures business is not disrupted when you migrate your data. You stay in full control of your migration thanks to our easy to navigate interactive user interface. You won't even have to worry about messing something up in the setup thanks to our clear and easy to read instructions. And if anything goes wrong, report the issue to us and our expert team will try their very best to assist as soon as possible. </p>
+               <h3 class="featurette-heading">Offering Fast, Secure, Scalable, Isolated Tenant & Managed Migration Process <span class="text-muted"> options for your workplace migration.</span></h3>
+            <p class="lead">
+                We understand that customers need a fast, reliable product for workplace migration. We also understand that it is customer's data, so instead of a typical shared-tenant architecture a SaaS company usually provides, we offer a simple, dedicated, secure, scalable and isolated server utlizing powerful capabilities of Windows Server for your content migration. You choose cloud server sizes and we have enabled DevOps in Cloud to automatically deploy and let you manage your migration. Additionally, all security related configurations to access multi-cloud environment are your's in the server. Hence to a provider like Google or Box, it is not a third-party or partner migrating the contents, that ensures higher service levels. We have also enabled a process that includes remediation steps that helps you follow step-by-step process of migration. A faster reupload option is available that ensures business is not disrupted when you migrate your data. You stay in full control of your migration thanks to our easy to navigate interactive user interface.
+                You won't even have to worry about messing something up in the setup thanks to our clear and easy to read instructions. And if anything goes wrong, report the issue to us and our expert team will try their very best to assist as soon as possible.
+            </p>
         </div>
         <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" src="./localhost_files/wordart.png" alt="Generic placeholder image">
