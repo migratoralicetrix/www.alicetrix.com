@@ -74,7 +74,7 @@
 <div class="container-fluid">
     <div class="row jumbotron">
             <div class="col-md-7">
-            <h2 class="featurette-heading">Alicetrix's Cloud Digital Workplace Migrator <span class="text-muted"> built for your specific needs </span></h2>
+            <h2 class="featurette-heading">Alicetrix's Enterprise Workplace Migrator <span class="text-muted"> built for your specific needs </span></h2>
             <p class="lead">
                 Our Alicetrix's Enterprise Cloud Digital Workplace Migrator specializes in cutting edge tools and processes for a seamless cloud migration for our clients. We believe that the migration of digital workplace should be fast and simple. So, we try not to make it so complex while bringing a software that can assist you with your transfer.
             </p>
