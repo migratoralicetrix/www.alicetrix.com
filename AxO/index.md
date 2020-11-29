@@ -3,11 +3,11 @@
 <div class="container-fluid">
     <div class="row jumbotron">
             <div class="col-md-5">
-            <h3 class="featurette-heading"><strong>Our Solution: </strong></h3>
-            <p class="lead"> Alicetrix Enterprise File Migrator (AxO) is for those who are concerned about security and speed. Migration of data from Cloud Content Management providers like <strong>Box</strong> and <strong>Google</strong> should be fast &amp; simple! So, we hide the complexity and try to bring a software that takes care of most of migration requirements. Our super-fast multi-threaded algorithms for upload ensure contents are migrated at a blazing speed, offering Fast, Secure, Scalable, Isolated &amp; Managed Migration Process for your file migration to <strong>O365&rsquo;s SharePoint Online and OneDrive</strong> environment
-            </p>
-            Visit us at <a href="https://azuremarketplace.microsoft.com/en-us/marketplace/apps/alicetrix.o365filemigrator">Microsoft Azure Marketplace for Alicetrix</a>
-        </div>
+                <h3 class="featurette-heading"><strong>Our Solution: </strong></h3>
+                <p class="lead"> Alicetrix Enterprise Workplace Migrator (AxW) is for those who are concerned about security and speed. Migration of data from Cloud Content Management providers should be fast &amp; simple! So, we hide the complexity and try to bring a software that takes care of most of migration requirements. Our super-fast multi-threaded algorithms for upload ensure contents are migrated at a blazing speed, offering Fast, Secure, Scalable, Isolated &amp; Managed Migration Process for your workplace migration
+                Visit us at <a href="https://azuremarketplace.microsoft.com/en-us/marketplace/apps/alicetrix.o365filemigrator">Microsoft Azure Marketplace for Alicetrix</a>
+            </div>
+    </div>
     <div class="col-md-7">
         <div align="center">
           <img class="img-fluid" src="/localhost_files/AlicetrixGraphics.PNG">           
@@ -16,52 +16,63 @@
 </div>
 
 
-   <div class="row">
+
+<div class="row bg-dark">
         <div class="col-lg-12">
-            <h2>Our key benefits are:</h2>
-            <div class="lead">
-                <ul>
-                    <li><strong>Save Cost with high bandwidth migration: </strong>With dedicated Virtual Machine in Azure, you get the full bandwidth for migration, and minimum Egress cost due to data residency in Microsoft ecosystem.</li>
-                    <li><strong>Very fast migration of data: </strong>Our copyrighted multi-threaded algorithms allows for parallel migration tasks and simultaneous uploads.</li>
-                    <li><strong>Maximum User Satisfaction: </strong>Enabled for enterprise customers with multiple migration options.</li>
-                    <li><strong>Secure: </strong>Using owner&rsquo;s credentials in their own secure Azure Infrastructure, ensures security encapsulations of security credential without sharing it with a third party.</li>
-                    <li><strong>Simple Pricing model:</strong> Simple pay-as-you go pricing model that is not capped by size of data or number of users.</li>
-                    <li><strong>Access from anywhere:</strong> Web based adaptive layout allows access from anywhere, any device.</li>
-                </ul>
-            </div>
-        </div><!-- /.col-lg-4 -->       
-    </div><!-- /.row -->
-  <div class="row">
-        <div class="col-lg-6">
-            <img class="img-fluid " src="/localhost_files/box_logo.png" alt="" width="120">
-            <h2>Box</h2>
-            <h5>Migrate contents from Box, Create new folders, Migrate permissions, Get file content reports from Box</h5>
-            <h6> Current Software Offerings are: <b>Box To OneDrive and SharePoint Online</b> Migrator </h6>
-            <p><a class="btn btn-secondary" href="/about" role="button">View details »</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-6">
-            <img class="img-fluid" src="/localhost_files/google.jpg" alt="" width="150">
-            <h2>Google Drive</h2>
-            <h5>Migrate contents from Google Drive, Create new folders, Migrate permissions, Get file content reports from Google Drive, and convert your Google forms, sheets, and docs into Microsoft Office documents</h5>
-            <h6> Current Software Offerings are: <b>Google Drive to OneDrive and SharePoint Online</b> Migrator </h6>
-            <p><a class="btn btn-secondary" href="/about" role="button">View details »</a></p>
-        </div><!-- /.col-lg-4 -->      
-    </div><!-- /.row -->
+            <h4 class="featurette-heading">Migrating Workplace contents from: </h4>
+        </div>
+</div>
+<div class="row">
+    <div class="col-lg-6">
+        <img class="img-fluid " src="/localhost_files/newgmaillogo.0.jpg" alt="" width="200">
+        <h5>Migrate mails and calendars (only forwards future calendar) from Gmail</h5>
+        <h6> Current Software Offerings are: <b>Gmail To Exchange Online, Gmail to Gmail</b> Migrator </h6>
+        <p><a class="btn btn-secondary" href="/home/about" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-6">
+        <img class="img-fluid" src="/localhost_files/exchange-online-logo.png" alt="" width="200">
+        <h5>Migrate emails from Exchange Online</h5>
+        <h6> Current Software Offerings are: <b>Exchange Online to Gmail, Exchange Online to Exchange Online</b> Migrator </h6>
+        <p><a class="btn btn-secondary" href="/Home/About" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+</div>    <!-- /.row -->
+
+<div class="row ">
+    <div class="col-lg-6">
+        <img class="img-fluid" src="/localhost_files/google.jpg" alt="" width="150">
+        <h5>Migrate contents from Google Drive, Create new folders, Migrate permissions, Get file content reports from Google Drive, and convert your Google forms, sheets, and docs into Microsoft Office documents</h5>
+        <h6> Current Software Offerings are: <b>Google Drive to OneDrive and SharePoint Online</b> Migrator </h6>
+        <p><a class="btn btn-secondary" href="/Home/About" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-6">
+        <img class="img-fluid " src="/localhost_files/box_logo.png" alt="" width="100">
+        <h5>Migrate contents from Box, Create new folders, Migrate permissions, Get file content reports from Box</h5>
+        <h6> Current Software Offerings are: <b>Box To OneDrive and SharePoint Online</b> Migrator </h6>
+        <p><a class="btn btn-secondary" href="/home/about" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+</div>     <!-- /.row -->
+
+
+
+
 <div class="row">
         <div class="col-lg-12">
             <h2>Enabling Differentiating features:</h2>        
             <div class="lead">   
                 <ul>
-                    <li><strong>Multiple Migration options</strong>: Full Migration along with faster resync options are available.</li>
-                    <li><strong>Auto-Remediation of Source data</strong>: Evaluation of source data and autocorrection.</li>
-                    <li><strong>Multiple Sources</strong>: Migrates from either Google or Box.</li>
-                    <li><strong>Multiple endpoints</strong>: Migrates to either OneDrive or SharePoint in same batch.</li>
-                    <li><strong>Permission Migration &ndash; </strong>Ability to migrate permissions using multiple algorithms.</li>
-                    <li><strong>Intuitive User Interface and Reports</strong>: Easy to use guided interface, downloadable detailed reports and a mobile friendly interface.</li>
-                    <li><strong>Supports very large migrations</strong>: Auto-refreshing credentials, allows for multi-day migrations.</li>
-                    <li><strong>Managed failovers - </strong>Ensure failures are handled automatically.</li>
-                    <li><strong>Auto-conversions of documents</strong>: Migrates Google docs, Google sheets, Google slides</li>
-                    <li><strong>Admin Controls</strong>: Allows for granular admin controls changing behavior of migration tasks.</li>
+                    <li><strong>Multi-Threaded Environment</strong> &ndash; Contents(emails/files) of single users are uploaded read and uploaded into destination tenant through a multi-threaded program enabling simultaneous downloads/uploads hence fast migration.&nbsp; During large file migration, larger files are broken into small pieces for upload, and for each small segment of files multithreading is also done.&nbsp;</li>
+                    <li><strong>Starts Migrating at once</strong> and, does not create a repository of contents before migration. It builds repository while doing migration useful in case of very large data or lot of files in millions.</li>
+                    <li><strong>Resync-Migration Options: </strong>Multiple Migration Options are available for migrations that is first-time migration, resyncing of migration (local respository is maintianed to ensure syncing is as fast as possible).</li>
+                    <li><strong>Permission Migration &ndash; </strong>Ability to migrate permission using Various algorithms are available.</li>
+                    <li><strong>Managed failovers</strong> - Complex algorithm built to ensure failures are handled in most case automatically by the application through retrials, wait, requeuing of file transfers or auto-correction in certain cases.</li>
+                    <li><strong>Security with your own Cloud Infrastructure </strong>&ndash; Migrator relies on secured Microsoft Azure Infrastructure or your infrastructure for migration. Individual instance of this application are deployed through Azure Marketplace into customer&rsquo;s tenant&rsquo;s/environment. This ensures advanced security and data encapsulation which is sometimes needed for highly secure enterprise.</li>
+                    <li><strong>Remediation</strong>: It allows to generate reports on Source Tenant. In case of File Migration, it also corrects file names if users opt for that option, getting rid of special characters etc. (for OneDrive Destination Tenant)</li>
+                    <li><strong>Data Storage</strong>: Migrator relies on local database for storage of files transaction information in Web App Server itself. Local database storage ensures roundtrip in accessing database is minimized ensuring faster migration. Auto caching is enabled ensuring Database access is only done a specific period of times.</li>
+                    <li><strong>Auto-conversions for Google</strong>: Migrates Google Docs as well, Sheets, Images into respective file outputs.</li>
+                    <li><strong>No Contents Data storage in Web App</strong>: Data read is never stored on drives.</li>
+                    <li><strong>Complete Reports</strong>: Complete reports are made available using excel exports.</li>
+                    <li><strong>Complete and Intuitive Dashboard for Migration</strong>: Online updates on status of migration is available with a mobile friendly interface. </li>
+                    <li><strong>Admin Controls</strong>: Allows for granular admin controls on few aspects like retrials when failure, wait times etc. for more flexibility of setting up optimized speed of migration in certain cases.</li>
                 </ul>
             </div>
         </div><!-- /.col-lg-4 -->       
