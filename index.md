@@ -81,7 +81,7 @@
     </div>
     <div class="col-md-5">
         <div align="center">
-        <h4 class="featurette-heading"> Watch below video for understanding our offering:</h4>
+        <h4 class="featurette-heading"> Watch below video for understanding our offerings:</h4>
            <iframe  width="400" height="225" src="https://www.youtube.com/embed/Tdqp4-2wB3Q">
             </iframe>
             <!--
