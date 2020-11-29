@@ -78,12 +78,10 @@
             <p class="lead">
                 Our Alicetrix's Enterprise Cloud Digital Workplace Migrator specializes in cutting edge tools and processes for a seamless cloud migration for our clients. We believe that the migration of digital workplace should be fast and simple. So, we try not to make it so complex while bringing a software that can assist you with your transfer.
             </p>
-          </div> 
     </div>
     <div class="col-md-5">
         <div align="center">
-            <iframe width="420" height="315"
-            src="https://youtu.be/Tdqp4-2wB3Q?autoplay=1&mute=1">
+           <iframe  width="400" height="225" src="https://www.youtube.com/embed/Tdqp4-2wB3Q">
             </iframe>
             <!--
             <video width="300" controls autoplay>
