@@ -1,3 +1,5 @@
+<div class="container-fluid">
+
 <div class="row">
         <div class="col-md-5">
          <h3 class="featurette-heading"><strong>Our Solution: </strong></h3>
@@ -73,4 +75,3 @@
             </div>
         </div><!-- /.col-lg-4 -->       
 </div><!-- /.row -->
-
