@@ -1,13 +1,46 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <title>Onetime Configuration for Google</title>
+    <title>Installation</title>
 </head>
 <body>
     <h1>Introduction</h1>
-    <p>Alicetrix tries to bring to you Enterprise Cloud Migrator, a web application based File Migrator for migrating your file contents from Google or Box to Microsoft O365 environment</p>
+    <p>Alicetrix tries to bring to you Enterprise Digital Workplace Migrator, a web application based Workplace Migrator for migrating your contents from various sources that host Mails, Files or Calendars.&nbsp;</p>
+    <p>Currently available offers are:</p>
+    <ul>
+        <li>
+            GMAIL: Migrate mails and&nbsp; forward calendars (only forwards future calendar) from Gmail Current Software Offerings are:
+            <ul>
+                <li><strong>Gmail To Exchange Online</strong></li>
+                <li><strong>Gmail to Gmail</strong> Migrator</li>
+            </ul>
+        </li>
+        <li>
+            EXCHANGE:Migrate emails and forward calendars (only forwards future calendar)&nbsp;<strong>from</strong> Exchange Online Current Software Offerings are:
+            <ul>
+                <li><strong>Exchange Online to Gmail</strong></li>
+                <li><strong> Exchange Online to Exchange Online</strong> Migrator</li>
+            </ul>
+        </li>
+        <li>
+            GDRIVE:Migrate contents from <strong>Google Drive</strong>, Create new folders, Migrate permissions, Get file content reports from Google Drive, and convert your Google forms, sheets, and docs into Microsoft Office documents.Current Software Offerings are:
+            <ul>
+                <li><strong>Google Drive to OneDrive</strong></li>
+                <li><strong>SharePoint Online</strong> Migrator</li>
+            </ul>
+        </li>
+        <li>
+            BOX:Migrate contents from Box, Create new folders, Migrate permissions, Get file content reports from Box Current Software Offerings are:
+            <ul>
+                <li><strong>Box To OneDrive</strong></li>
+                <li><strong> SharePoint Online</strong> Migrator</li>
+            </ul>
+        </li>
+        <li>IMAP (Beta): Migrate two and from any IMAP accounts.&nbsp;</li>
+    </ul>
     <p>Our help section is divided into below areas:</p>
     <ul>
         <li><strong>Setup </strong></li>
@@ -15,28 +48,25 @@
         <li><strong>Migrate </strong></li>
         <li><strong>Report</strong></li>
     </ul>
-    <p>Below terminology we will use frequently in help file and application.</p>
+    <p>Below terminology will be used frequently in help file and application.</p>
     <ul>
-        <li><strong>Source </strong>- Tenant <em>from </em>where User files/folder will be migrated</li>
-        <li><strong>Destination </strong>- Tenant where User files and folder will be migrated</li>
+        <li><strong>Source </strong>- Tenant <em>from </em>where User contents will be migrated</li>
+        <li><strong>Destination </strong>- Tenant where User contents will be migrated</li>
     </ul>
-    <p>Core differentiators of Alicetrix File Migrator are:</p>
+    <p>Key Features of Alicetrix Workplace Migrator are:</p>
     <ul>
-        <li><strong>Multi-Threaded Environment</strong> &ndash; while a single web application of File Migrator only migrates one user at a time (multiple users migration can be requested in same migration request), files of single users are uploaded read and uploaded into destination tenant exactly at the same time. Also larger files are broken into small pieces for upload, and for each small segment of files multithreading is done. It is particularly beneficial in migrating files of very large size and approximately 20 times faster than nearest file migration software in market. Further multi-threading can also be achieved, discussed in Migration section to stand up more instances of Web Application. Multiple instances of Web Application that can be initiated on a click of button in Cloud environment can migrate TBs of data on a single day.</li>
-        <li><strong>Starts Migrating at once</strong> and, does not create a repository of files and folders before migration. It builds repository while doing migration. This is particularly beneficial in case of Users/Sites having very large data and lot of files in hundred thousands or millions.</li>
-        <li><strong>Multiple-Migration Options: </strong>Multiple Migration Options are available for migrations that is first-time migration, resyncing of migration (in case user files are not updated, very fast resyncing allowing for migration for files which were newly created or left out due to some failures), folder to folder migration for a specific user etc. are available.</li>
+        <li><strong>Multi-Threaded Environment</strong> &ndash; Contents(emails/files) of single users are uploaded read and uploaded into destination tenant through a multi-threaded program enabling simultaneous downloads/uploads hence fast migration.&nbsp; During large file migration, larger files are broken into small pieces for upload, and for each small segment of files multithreading is also done.&nbsp;</li>
+        <li><strong>Starts Migrating at once</strong> and, does not create a repository of contents before migration. It builds repository while doing migration useful in case of very large data or lot of files in millions.</li>
+        <li><strong>Resync-Migration Options: </strong>Multiple Migration Options are available for migrations that is first-time migration, resyncing of migration (local respository is maintianed to ensure syncing is as fast as possible).</li>
         <li><strong>Permission Migration &ndash; </strong>Ability to migrate permission using Various algorithms are available.</li>
         <li><strong>Managed failovers</strong> - Complex algorithm built to ensure failures are handled in most case automatically by the application through retrials, wait, requeuing of file transfers or auto-correction in certain cases.</li>
-        <li><strong>Security with Microsoft Azure Infrastructure </strong>&ndash; Migrator relies on secured Microsoft Azure Infrastructure for migration and additionally it is not a SaaS product but individual instance of this application are deployed through Azure Marketplace into customer&rsquo;s tenant&rsquo;s/environment. This ensures advanced security and data encapsulation which is sometimes needed for highly secure enterprise.</li>
-        <li><strong>Remediation</strong>: Unlike few other migration tools, Alicetrix File Migrator allows to generate reports on Source Tenant. It also corrects file names if users opt for that option, getting rid of special characters etc. (for OneDrive Destination Tenant)</li>
+        <li><strong>Security with your own Cloud Infrastructure </strong>&ndash; Migrator relies on secured Microsoft Azure Infrastructure or your infrastructure for migration. Individual instance of this application are deployed through Azure Marketplace into customer&rsquo;s tenant&rsquo;s/environment. This ensures advanced security and data encapsulation which is sometimes needed for highly secure enterprise.</li>
+        <li><strong>Remediation</strong>: It allows to generate reports on Source Tenant. In case of File Migration, it also corrects file names if users opt for that option, getting rid of special characters etc. (for OneDrive Destination Tenant)</li>
         <li><strong>Data Storage</strong>: Migrator relies on local database for storage of files transaction information in Web App Server itself. Local database storage ensures roundtrip in accessing database is minimized ensuring faster migration. Auto caching is enabled ensuring Database access is only done a specific period of times.</li>
         <li><strong>Auto-conversions for Google</strong>: Migrates Google Docs as well, Sheets, Images into respective file outputs.</li>
-        <li><strong>No File Data storage in Web App</strong>: Data read is never stored on drives.</li>
+        <li><strong>No Contents Data storage in Web App</strong>: Data read is never stored on drives.</li>
         <li><strong>Complete Reports</strong>: Complete reports are made available using excel exports.</li>
-        <li><strong>Unique Dashboard in Web App</strong>: Windows client like online updates on status of migration is available and mobile friendly interface.</li>
-        <li><strong>No stickiness to User Sessions</strong>: Once user Migration request is initiated, users can close the browser if needed. When they come back system displays the current migration status.</li>
+        <li><strong>Complete and Intuitive Dashboard for Migration</strong>: Online updates on status of migration is available with a mobile friendly interface. </li>
         <li><strong>Admin Controls</strong>: Allows for granular admin controls on few aspects like retrials when failure, wait times etc. for more flexibility of setting up optimized speed of migration in certain cases.</li>
     </ul>
-    <p>&nbsp;</p>
-</body>
-</html>
+</body></html>

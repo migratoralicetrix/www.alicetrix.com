@@ -4,14 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <title>Onetime Setup for OneDrive</title>
+    <title>Onetime Setup for Microsoft 365</title>
 </head>
 <body>
-    <h1>Onetime Setup for OneDrive/SharePoint</h1>
-    <p>&nbsp;</p>
+    <h2>Onetime Setup for Microsoft 365&nbsp;</h2>
     <p>Microsoft Authentication is currently only allowed on OAuth mechanism.</p>
-    <h1>Steps to create Service Account:</h1>
-    <p>&nbsp;</p>
+    <h1>Steps to create Service Account:&nbsp;</h1>
     <h2>Step A:</h2>
     <ol>
         <li>Go to the <a href="https://portal.azure.com/">https://portal.azure.com</a>.</li>
@@ -19,37 +17,140 @@
         <li>On Menu, left navigation pane, Go to you Azure Active Directory and click on App Registration</li>
         <li>On top, you will get option to add an app. Click on New Registration.</li>
         <li>Enter your app's name</li>
-        <li>
-            Select under Supported Account Types &ldquo;Accounts in this organizational directory only (Migrator only - Single tenant)&rdquo;.         
-            <span class="badge badge-danger">Security Considerations</span>
-            Be Careful in selecting any other option as that may allow Users other than current users of your tenant to have access to OneDrive/SharePoint contents of your tenant. In cases where you are migrating contents for tenants other than the one you are currently logged in, other options can be selected, but this is not recommended from security standpoint and not required as well.
-        </li>
+        <li>Select under Supported Account Types &ldquo;Accounts in this organizational directory only (Migrator only - Single tenant)&rdquo;. <span class="badge badge-danger">Security Considerations</span> Be Careful in selecting any other option as that may allow Users other than current users of your tenant to have access to OneDrive/SharePoint contents of your tenant. In cases where you are migrating contents for tenants other than the one you are currently logged in, other options can be selected, but this is not recommended from security standpoint and not required as well.</li>
         <li>Enter redirect URL value as Web Application Migrator Home Page as below:</li>
     </ol>
     <p>https://&lt;VM IP address and or domain name&gt;:&lt;port, optional, if running on different port enter port number as well&gt;/migrator/index</p>
     <ol start="8">
+        <li>Click on Register</li>
+        <li>Go to API Permissions, add below permissions: Select API Name (Microsoft Graph and SharePoint), Select Delegated and Search for below permissions and add them. Also select Grant Admin Consent to ensure your App has admin permission.</li>
+    </ol>
+    <table border="1" >
+        <tbody>
+            <tr>
+                <td width="151">API / Permissions name</td>
+                <td width="68">Type</td>
+                <td width="244">Description&nbsp;</td>
+                <td width="68">Admin consent required</td>
+                <td width="116">Status</td>
+            </tr>
+            <tr>
+                <td>Microsoft Graph (7)</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Directory.AccessAsUser.All</td>
+                <td>Delegated</td>
+                <td>Access directory as the signed in user</td>
+                <td>Yes</td>
+                <td>Granted for Migrator</td>
+            </tr>
+            <tr>
+                <td>Files.ReadWrite.All</td>
+                <td>Delegated</td>
+                <td>Have full access to all files user can access</td>
+                <td>-</td>
+                <td>Granted for Migrator</td>
+            </tr>
+            <tr>
+                <td>IMAP.AccessAsUser.All</td>
+                <td>Delegated</td>
+                <td>Read and write access to mailboxes via IMAP.</td>
+                <td>-</td>
+                <td>Granted for Migrator</td>
+            </tr>
+            <tr>
+                <td>offline_access</td>
+                <td>Delegated</td>
+                <td>Maintain access to data you have given it access to</td>
+                <td>-</td>
+                <td>Granted for Migrator</td>
+            </tr>
+            <tr>
+                <td>Sites.ReadWrite.All</td>
+                <td>Delegated</td>
+                <td>Edit or delete items in all site collections</td>
+                <td>-</td>
+                <td>Granted for Migrator</td>
+            </tr>
+            <tr>
+                <td>User.Read.All</td>
+                <td>Delegated</td>
+                <td>Read all users' full profiles</td>
+                <td>Yes</td>
+                <td>Granted for Migrator</td>
+            </tr>
+            <tr>
+                <td>User.ReadWrite.All</td>
+                <td>Delegated</td>
+                <td>Read and write all users' full profiles</td>
+                <td>Yes</td>
+                <td>Granted for Migrator</td>
+            </tr>
+            <tr>
+                <td>SharePoint (1)</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>AllSites.FullControl</td>
+                <td>Delegated</td>
+                <td>Have full control of all site collections</td>
+                <td>Yes</td>
+                <td>Granted for Migrator</td>
+            </tr>
+        </tbody>
+    </table>
+    <ol start="10">
         <li>
-            Click on Register
-          
-
+            <p>While on App, go to left Navigation pane and select Certificates and Secrets</p>
         </li>
-
-        <li>Go to API Permissions, add below permissions: Select API Name (Microsoft Graph and SharePoint), Select Delegated and Search for below permissions and add them. Also select Grant Admin Consent to ensure your App has admin permission.
-            <p>
-                <img src="images/onedriveOnetimeauth.jpg" width="600" />
-
-            </p>
-        </li>
-        <li>While on App, go to left Navigation pane and select Certificates and Secrets</li>
         <li>Use options on screen to create a new certificate, Select expiry as One Year or any other based on your organization policy, Enter Certificate Name, click Add. A new certificate is created. Copy the certificate value and store it for next steps. It serves as Client Secret for next step.</li>
         <li>Also, go back to Overview of your app and copy &ldquo;Application (client) ID&rdquo;, it serves as Client ID for for next step.</li>
     </ol>
     <h2>Step B:</h2>
-    <p>Go to your Alicetrix Web App <a href="/Migrator/AdminConfig" target="_parent">Admin</a> Page and update Client IDs and Secret with App ID as Client Id and Client Secret as password created from previous step in OneDrive and SharePoint Section</p>
-    <p><strong>
-    <span class="badge badge-warning">Important Note</span>
-    Client ID and Client Secret are not persisted in database. Hence, Client ID and Client Secret needs to be updated each time Alicetrix web application server is restarted.
-</strong></p>
+    <p>Go to your Alicetrix Web App <a href="/Migrator/AdminConfig" target="_parent">Settings</a> Page and update Client IDs and Secret with App ID as Client Id and Client Secret as password created from previous step in OneDrive and SharePoint Section</p>
+    <h2>Step C:</h2>
     <p>&nbsp;</p>
+    <h2>Exchange Online Configurations:</h2>
+    <p>Run below PowerShell commands:</p>
+    <ul>
+        <li>Enable WinRM if not already enabled:</li>
+    </ul>
+    <p>winrm quickconfig</p>
+    <ul>
+        <li>Run below command to check Basic= true</li>
+    </ul>
+    <p>winrm get winrm/config/client/auth</p>
+    <ul>
+        <li>If you don&rsquo;t see it run command below</li>
+    </ul>
+    <p>winrm set winrm/config/client/auth @{Basic="true"}</p>
+    <ul>
+        <li>Run below (as administrator only once)</li>
+    </ul>
+    <p>Set-ExecutionPolicy RemoteSigned</p>
+    <ul>
+        <li>Install module for ExchangeOnline Management if you don&rsquo;t have it in your powershell</li>
+    </ul>
+    <p>Install-Module -Name ExchangeOnlineManagement</p>
+    <ul>
+        <li>Update module using below command:</li>
+    </ul>
+    <p>Update-Module -Name ExchangeOnlineManagement&nbsp;</p>
+    <ul>
+        <li>Connect to exchange online (<a href="https://docs.microsoft.com/en-us/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps">https://docs.microsoft.com/en-us/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps</a> for enabling powershell for exchange)</li>
+    </ul>
+    <p>Connect-ExchangeOnline -UserPrincipalName &lt;You admin UPN&gt; -ShowProgress $true</p>
+    <p>Set-ExecutionPolicy RemoteSigned</p>
+    <ul>
+        <li>Run below command to assign FullAccess to you admin for all your mailbox accounts:</li>
+    </ul>
+    <p>Get-Mailbox -ResultSize Unlimited | Add-MailboxPermission -AccessRights FullAccess &nbsp;-User &lt;Your admin ID&gt; -Automapping $false</p>
 </body>
 </html>

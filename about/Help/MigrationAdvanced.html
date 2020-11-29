@@ -31,16 +31,7 @@
     <p>Google to OneDrive: Organizer, Owner, Writer gets converted into Write Permission for OneDrive tenant, rest gets converted into Read permission in OneDrive tenant</p>
     <p>Box to OneDrive: Editor, Co-Owner gets converted into Write Permission for OneDrive tenant, rest gets converted into Read permission in OneDrive tenant</p>
     <p>&nbsp;</p>
-    <h3>Syncing or Second Pass Migration</h3>
-    <p>&nbsp;</p>
-    <p>Use this option to resync or migrate again for files that errored out. Migrator Application maintains its own local database. If this option is selected a list of all previous migration is shown (if another folder was chosen as root folder it is also shown in dropdown). A user can select from dropdown migrations done earlier. When a previous migration is selected to sync with while Source is still read for getting list of files to be migrated, destination is only read or written when there is a new file/folder in source or any files in previous migration errored out.</p>
-    <p>Note: In this option it is important that users who were migrated in earlier migration are entered in list of users to be migrated, as well as if a new folder other than root folder was entered for migration, same folder name is entered in Root destination folder. If this step is not done, Resyncing wont be fast.</p>
-    <p>Note: During resyncing with this option selected file behavior can be configured as replace or rename. Use replace if you feel files uploaded in first pass migration are not migrated correctly but still showing in destination tenant. User rename otherwise which means if files of same name are present in source folder they are also migrated with new names. You can also use Skip/Ignore but in this options if files are present in destination tenant but not migrated properly, you will not be able to rewrite them.</p>
-
-    <img src="images/MigrationResyncing.JPG" width="600" />
-    <p>&nbsp;</p>
-    <p>Users can still resync their files without selecting this option. For that purpose, leave above box unchecked, use same user list and same folder name (which was selected as destination folder to migrated). In file behavior select Skip/Ignore. While this option can resync as outlined above this may not replace files errored out. Additionally, destination is read every time to check if file is present at same location, in certain cases hitting API limits in case of very large migration.</p>
-    <p>&nbsp;</p>
+    
 
     <h3>Migrating specific folders for a particular user.</h3>
     <p>&nbsp;</p>
@@ -49,7 +40,6 @@
     <p>In either destination or source tenant, each folder is represented by a unique Id. Unique ID of a particular folder can be found either from the URL or if you try to share a link of that folder, link of folder will have the unique folder ID of that folder.</p>
     <p>If you wish to migrate only one folder from one User to specific folder for same user in destination tenant you can use this option. Enter the unique ID of folder from Source tenant from where contents need to be migrated, also enter the unique ID of destination tenant where contents needs to be migrated. Destination Folder ID serves as root folder ID for location where all contents from Source folder will be migrated, if option of create a new folder was selected for destination migration folder, a new folder at the destination folder ID will be created.</p>
 
-    <img src="images/MigrationFromadiffferntrootfld.JPG" width="600" />
     <p>&nbsp;</p>
     <p>Note: This option can only migrate contents on only one user at a time. Multiple users for migration should not be entered in this case.</p>
     <p>&nbsp;</p>

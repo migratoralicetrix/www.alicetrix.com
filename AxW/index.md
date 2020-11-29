@@ -27,13 +27,13 @@
         <img class="img-fluid " src="/localhost_files/newgmaillogo.0.jpg" alt="" width="200">
         <h5>Migrate mails and calendars (only forwards future calendar) from Gmail</h5>
         <h6> Current Software Offerings are: <b>Gmail To Exchange Online, Gmail to Gmail</b> Migrator </h6>
-        <p><a class="btn btn-secondary" href="/home/about" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="./about" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-6">
         <img class="img-fluid" src="/localhost_files/exchange-online-logo.png" alt="" width="200">
         <h5>Migrate emails from Exchange Online</h5>
         <h6> Current Software Offerings are: <b>Exchange Online to Gmail, Exchange Online to Exchange Online</b> Migrator </h6>
-        <p><a class="btn btn-secondary" href="/Home/About" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="./about" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
 </div>   
 
@@ -42,13 +42,13 @@
         <img class="img-fluid" src="/localhost_files/google.jpg" alt="" width="150">
         <h5>Migrate contents from Google Drive, Create new folders, Migrate permissions, Get file content reports from Google Drive, and convert your Google forms, sheets, and docs into Microsoft Office documents</h5>
         <h6> Current Software Offerings are: <b>Google Drive to OneDrive and SharePoint Online</b> Migrator </h6>
-        <p><a class="btn btn-secondary" href="/Home/About" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="./about" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-6">
         <img class="img-fluid " src="/localhost_files/box_logo.png" alt="" width="100">
         <h5>Migrate contents from Box, Create new folders, Migrate permissions, Get file content reports from Box</h5>
         <h6> Current Software Offerings are: <b>Box To OneDrive and SharePoint Online</b> Migrator </h6>
-        <p><a class="btn btn-secondary" href="/home/about" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="./about" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
 </div>     
 

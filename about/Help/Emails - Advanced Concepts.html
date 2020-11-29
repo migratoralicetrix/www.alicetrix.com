@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Email Migration - Advance Concepts</title>
+</head>
+<body>
+    <h3>Emails - Advanced Concepts</h3>
+    <h4><strong>Calendar Forwarding</strong></h4>
+    <div class="">
+            <div class="custom-control custom-checkbox"><strong><label class="custom-control-label" for="doNotMigrateDraft">Forward Calendars (only future calendar instance will be forwarded)</label></strong></div>
+    </div>
+    <div class="">This option appears for few supported source tenants (Ex. Google)&nbsp; Calendars in user's mailbox are forwarded to destination user email Id.&nbsp;</div>
+    <div class="">This is NOT a calendar copy function, calendars instance that appear in future for migrated users, are just forwarded to destination user,&nbsp;&nbsp;</div>
+    <div class="">This is a Beta feature. Please reach out to us if you have a source mailbox from where Calendar needs to be moved/forwarded, we may have customized solution available for you at an additional cost/services.&nbsp;</div>
+   <br/>
+    <div class=""><strong>Below is folder behaviour option:</strong></div>
+    <div class="">Typically deleted folder from known sources (Exchange or Google) are not migrated. Below option are available to enable few of folders that typically do not need migration (This options only work for known sources Exchange or Google).&nbsp;</div>
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+                <div class="custom-control custom-checkbox"><strong><label class="custom-control-label" for="doNotMigrateDraft">Skip Draft folder emails</label></strong></div>
+            </div>
+        </div>
+        </div>
+        <div class="">Check this box to not to migrate Draft folder. This is checked by default.&nbsp;</div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <div class="custom-control custom-checkbox"><strong><label class="custom-control-label" for="doNotMigrateSpam">Do Not Migrate Spam/Junk folder emails</label></strong></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">Check this box to not to migrate Spam/Junk emails.&nbsp;</div>
+            </div>
+            <div class="row">
+                <div class="col"><strong><label>Specify folders not needing migration (comma separated)</label></strong></div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-group"><span class="form-text text-muted">Enter comma separated folder name for folders in mailbox you do not wish to migrate. Leave blank if no folder requires skipping. This option is particularly useful in migration IMAP sources, as system may not know if folders are not required to be migrated.&nbsp;</span></div>
+
+                </div>
+            </div>
+
+            <div class="">
+                <div class="form-group">
+                    <h4 class="form-group"><span class="form-text text-muted">GMAIL Mail Migration behavior</span></h4>
+                    <div class="form-group"><span class="form-text text-muted">Gmail stores its mail data with a tag or label. A user can use multiple lables for same email. Lables in Gmail are converted to folder in destination tenant. Hence, same email can appear multiple times if they are tagged to multiple labels. This behavior is currently found to be inconsistent. System will try not to migrate same email again if "Check if this is Sync migration" checkbox is checked.&nbsp;</span></div>
+                </div>
+            </div>
+                    
+
+
+</body>
+</html>

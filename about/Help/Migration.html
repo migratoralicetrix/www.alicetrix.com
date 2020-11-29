@@ -7,38 +7,83 @@
     <title>Migration</title>
 </head>
 <body>
-    <p>&nbsp;</p>
-    <p></p>
     <h1>Migration</h1>
     <p>&nbsp;</p>
     <p>Note: Ensure you are authenticated as per process described above before executing this step.</p>
-    <h2>Migration Concepts:</h2>
-    <p>&nbsp;</p>
+    <h2>Migration Concepts:&nbsp;</h2>
     <h3>Name for Migration</h3>
-    <p>Migration is core offering for this software. Each time when migration is done a unique Migration Id is generated. Hence in order to identify a Migration you can give it a name.</p>
+    <p>Each time when migration is done a unique Migration Id is generated. In order to identify a Migration you can give it a name.</p>
     <h3>Entering Source and Destination mapping</h3>
     <p>Application will require a&nbsp; mapping file in CSV format to be uploaded.&nbsp; Mapping file should contain in one row Source User ID in first column and Destination account information in Second Column.</p>
-    <p>Upload a comma separated file with Source and destination mapping. Source user or group (email) in first column, equivalent destination user or group or site URL to be represented in second column. No title or heading row required. Source names do not accepts URL (just User or Group IDs). If using Site URL for destination, site should be already created in destination tenant. File size less than 14 MB is accepted</p>
+    <p>Upload a comma separated file with Source and destination mapping. Source user or group (email, UPN) or URL in first column, equivalent destination user or group or URL to be represented in second column. No title or heading row required.</p>
+    <p><span class="badge badge-info">SharePoint:</span> &nbsp; If using Site URL, site should be already created in destination tenant. File size less than 14 MB is accepted</p>
     <p>Multiple Source and Destination User IDs can be added as additional row in CSV file that need a migration.&nbsp;</p>
-    <p>If source and destination tenants are authenticated using same User IDs you can simply enter comma separated list of user Ids requiring migration, or upload a simple comma separated csv file for user ids</p>
-    <h3>Entering Destination folder</h3>
-    <p>It is recommended you create a new folder at destination tenant for doing the migration. To do this enable checkbox for "Check if source destination is not root folder" and enter folder name. Folders are automatically created if not present during migration.&nbsp;</p>
-    <p>&nbsp;</p>
-    <h3>File conflict behavior</h3>
-    <p>Note when encountering a same folder at destination when doing migration system does not creates a new folder at destination but only copies files under that folder from Source to Destination. However when encountering a file with same name behavior such as Skip, Replace or Rename can be selected.</p>
-    <p>Usages of such behavior is explained below:</p>
-    <p>When doing large migration or users having lot of file contents follow the below steps:</p>
-    <p>Do a first pass Migration. For First Pass Migration option also select rename option when encountering files of same name. It is impossible that this scenario will occur because files will be created first time in first pass migration, however in cases when two file exists of same name (specially in case of Google) you will be able to migrate the other file as well with a number appended to it. You are allowed not to select Rename in first pass migration but in that case if you see reports files having error with &ldquo;Conflict&rdquo; &nbsp;for first pass migration, they are probably files with same name.</p>
-    <p>Other options are used when you are trying to overwrite the contents of files you have already migrated by rewrite options or just skipping/ignoring files if same file names are encountered. Normally they are applied when you are doing a second pass migration. For files that have encountered failure and after respective correction is done you can select this option to ignore files with same name or rewrite them.</p>
-    <p>During second pass migration application currently do not checks or compare timestamps at source and destination folder.&nbsp;</p>
+    <p>For file migration, if source and destination tenants are authenticated using same User IDs you can simply enter comma separated list of user Ids requiring migration, or upload a simple comma separated csv file for user ids</p>
+    <p>Below Source and Destinations are currently allowed with respective formats:</p>
+    <table style="margin-left: auto; margin-right: auto; text-align:center" border="1" width="800">
+        <tbody>
+            <tr>
+                <td width="104"><strong>When used as</strong></td>
+                <td width="263"><strong>Source</strong></td>
+                <td width="281"><strong>Destination&nbsp;</strong></td>
+                <td width="491"><strong>Format</strong></td>
+            </tr>
+            <tr>
+                <td><strong>
+                Google Drive
+</strong></td>
+                <td>User or Group name&nbsp;</td>
+                <td>Currently Not Supported</td>
+                <td>In format XXX@tenant.com</td>
+            </tr>
+            <tr>
+                <td><strong>Box</strong></td>
+                <td>User or Group name</td>
+                <td>Currently Not Supported</td>
+                <td>In format XXX@tenant.com</td>
+            </tr>
+            <tr>
+                <td><strong>OneDrive</strong></td>
+                <td>Currently Not Supported</td>
+                <td>User or Group name&nbsp;</td>
+                <td>In format XXX@tenant.com</td>
+            </tr>
+            <tr>
+                <td><strong>SharePoint Online</strong></td>
+                <td>Currently Not Supported</td>
+                <td>SharePoint Site URL</td>
+                <td>Site URL example: https://alicetrix.sharepoint.com/sites/MyNewWebsite</td>
+            </tr>
+            <tr>
+                <td><strong>Gmail</strong></td>
+                <td>User or Group name&nbsp;</td>
+                <td>User or Group name&nbsp;</td>
+                <td>In format XXX@tenant.com</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Exchange Online</strong>
+                </td>
+                <td>User or Group name&nbsp;</td>
+                <td>User or Group name&nbsp;</td>
+                <td>In format XXX@tenant.com</td>
+            </tr>
+            <tr>
+                <td><strong>IMAP (beta)</strong></td>
+                <td>Full Server URL with User ID and Password&nbsp;</td>
+                <td>Full Server URL with User ID and Password&nbsp;</td>
+                <td>in format example: https://imap.server.com:993?username=xxx&amp;password=xxxx</td>
+            </tr>
+        </tbody>
+    </table>
     <h3><span style="font-size: 16.38px;">During Migration</span><span style="font-size: 14px;">&nbsp;</span></h3>
     <p>Migrator allows only one Migration request at a time. Hence if a Migration is in progress no other users are allowed to submit new migration request.</p>
-    <p>Once Migration starts users are shown key statistics from Migration in Migration Dashboard that appears below the submit button. Migration Dashboard is self-explanatory.</p>
+    <p>Once Migration starts users are shown key statistics from Migration in Migration Dashboard that appears below the submit button. Migration Dashboard refreshes data by itself. It provides key metrics on current status of migration and overall progress.&nbsp;</p>
     <p>Key Notes:</p>
     <ul>
-        <li>Once User starts migration, they can close the browser if needed. If they came back to migration page they can see the migration status.</li>
-        <li>User can wish to stop the migration. Option to stop the migration appears after migration has started.</li>
-        <li>If Migration is finished, detailed reports of migration can be retrieved from the reports tab.</li>
+        <li>Once User starts migration, they can close the browser if needed. If user access the migration page they can see the migration status.</li>
+        <li>It is not recomended, however a User can wish to stop the migration. Option to stop the migration appears after migration has started. Please allow for approx 5 mins wait after cancellation before starting a new migration to allow for any database commits etc. to occur. Use concepts of sync migration for migrating same set of users again.&nbsp;</li>
+        <li>If Migration has finished, detailed reports of migration can be retrieved from the reports tab. User can retrieve details of migration from reports tab when Migration is in progress, however it is not recommended for performance reasons as it retrieves data from the same database.&nbsp;</li>
     </ul>
     <p>&nbsp;</p>
 </body>
