@@ -3,7 +3,7 @@
     <div class="row jumbotron">
             <div class="col-md-5">
                 <h3 class="featurette-heading"><strong>About us: </strong></h3>
-                <p class="lead"> Alicetrix was founded in 2017 to deliver our customers capabilities for migrating and supporting client workplace and infrastructure solutions. We are a dedicated Microsoft experts who are trying to enable change for our customer on their Microsoft Cloud Journey. 
+                <p class="lead"> Alicetrix was founded to deliver our customers capabilities for migrating and supporting client workplace and infrastructure solutions. We are a dedicated Microsoft experts who are trying to enable change for our customer on their Microsoft Cloud Journey. 
                 </p>
             </div>
             <div class="col-md-7">
@@ -19,8 +19,8 @@
             </div><!-- /.col-lg-4 -->  
             <div class="col-lg-6">
                  <div class="lead">
-                    <p class="lead">We have our own product for Migration from Environment GSuite to Cloud platform (Alicetrix Enterprise Migrator AxO: <strong><a href="https://azuremarketplace.microsoft.com/en-us/marketplace/apps/alicetrix.o365filemigrator">Microsoft Azure Marketplace Alicetrix</a>)</strong> . This ensures we can bring an end to end capability to our customer and enable customization to approach if required to do such migrations and implementations.</p>
-                    <p class="lead">Additionally for customers migrating to Azure cloud or Microsoft 365, we enable various templates for deployments based on our experience for different customer segments in areas of Infrastructure and Cloud security, offering end to end solution utilizing powers of Microsoft Security, Azure DevOps and Infrastructure Security Management platforms.</p>
+                    <p class="lead">We have our own product for Migration from Environment workplace platforms (Alicetrix Enterprise Workplace Migrator AxW: <strong><a href="https://azuremarketplace.microsoft.com/en-us/marketplace/apps/alicetrix.o365filemigrator">Microsoft Azure Marketplace Alicetrix</a>)</strong> . This ensures we can bring an end to end capability to our customer and enable customization to approach if required to do such migrations and implementations.</p>
+                    <p class="lead">Additionally for customers migrating to Azure cloud or Microsoft 365, we enable various templates for deployments based on our experience for different customer segments in areas of Infrastructure and Cloud security, offering solutions utilizing powers of Microsoft Security, Azure DevOps and Infrastructure Security Management platforms.</p>
                 </div>
             </div><!-- /.col-lg-4 -->  
     </div><!-- /.row -->
