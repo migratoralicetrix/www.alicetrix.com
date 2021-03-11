@@ -28,7 +28,7 @@
         <div class="col-lg-8">
             <h5>Migrate mails and calendars (only forwards future calendar) from Gmail</h5>
             <h6> Current Software Offerings are: <b>Gmail To Exchange Online, Gmail to Gmail</b> Migrator </h6>
-            <p><a class="btn btn-secondary" href="/home/about" role="button">View details &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="/home/about" role="button">View details</a></p>
         </div>
     </div>
     <div class="row">
