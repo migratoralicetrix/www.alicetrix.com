@@ -30,7 +30,7 @@
             <h6> Current Software Offerings are: <b>Gmail To Exchange Online, Gmail to Gmail</b> Migrator </h6>
             <p><a class="btn btn-secondary" href="/home/about" role="button">View details</a></p>
         </div>
-    </div>
+</div>
     <div class="row">
         <div class="col-lg-4"  style="text-align:center">
             <img class="img-fluid" src="/localhost_files/exchange-online-logo.png" alt="" width="200">
