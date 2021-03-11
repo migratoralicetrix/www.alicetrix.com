@@ -28,7 +28,7 @@
         <div class="col-lg-8">
             <h5>Migrate mails and calendars (only forwards future calendar) from Gmail</h5>
             <h6> Current Software Offerings are: <b>Gmail To Exchange Online, Gmail to Gmail</b> Migrator </h6>
-            <p><a class="btn btn-secondary" href="/home/about" role="button">View details</a></p>
+            <p><a class="btn btn-secondary" href="/home/about" role="button">View details &raquo;</a></p>
         </div>
 </div>
 <div class="row">
@@ -40,58 +40,57 @@
             <h6> Current Software Offerings are: <b>Exchange Online to Gmail, Exchange Online to Exchange Online</b> Migrator </h6>
             <p><a class="btn btn-secondary" href="/about" role="button">View details &raquo;</a></p>
         </div>
+</div>    
+<div class="row">
+    <div class="col-lg-4" style="text-align:center">        
+        <img class="img-fluid" src="/localhost_files/IMAP.jpg" alt="" width="100">
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-8">
+        <h5>Migrate emails from IMAP </h5>
+        <h6> Current Software Offerings are: <b>IMAP to Gmail, Exchange Online, IMAP</b> Migrator </h6>
+        <p><a class="btn btn-secondary" href="/about" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
 </div>
-    
-    <div class="row">
-        <div class="col-lg-4" style="text-align:center">        
-            <img class="img-fluid" src="/localhost_files/IMAP.jpg" alt="" width="100">
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-8">
-            <h5>Migrate emails from IMAP </h5>
-            <h6> Current Software Offerings are: <b>IMAP to Gmail, Exchange Online, IMAP</b> Migrator </h6>
-            <p><a class="btn btn-secondary" href="/about" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div>
-    <div class="row ">
-        <div class="col-lg-4" style="text-align:center">
-            <img class="img-fluid" src="/localhost_files/google.jpg" alt="" width="150">
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-8">
-            <h5>Migrate contents from Google Drive, Create new folders, Migrate permissions, Get file content reports from Google Drive, and convert your Google forms, sheets, and docs into Microsoft Office documents</h5>
-            <h6> Current Software Offerings are: <b>Google Drive to OneDrive and SharePoint Online</b> Migrator </h6>
-            <p><a class="btn btn-secondary" href="/about" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-    <div class="row ">
-        <div class="col-lg-4" style="text-align:center">
-            <img class="img-fluid " src="/localhost_files/box_logo.png" alt="" width="100">
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-8">
-            <h5>Migrate contents from Box, Create new folders, Migrate permissions, Get file content reports from Box</h5>
-            <h6> Current Software Offerings are: <b>Box To OneDrive and SharePoint Online</b> Migrator </h6>
-            <p><a class="btn btn-secondary" href="/about" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-    <div class="row ">
-        <div class="col-lg-4" style="text-align:center">
-            <img class="img-fluid" src="/localhost_files/onedriveforbusiness.png" alt="" width="200">
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-8">
-            <h5>Migrate contents from OneDrive, Create new folders, Migrate permissions, Get file content reports</h5>
-            <h6> Current Software Offerings are: <b>OneDrive to OneDrive/SharePoint Online</b> Migrator </h6>
-            <p><a class="btn btn-secondary" href="/about" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div>
-    <div class="row ">
-        <div class="col-lg-4" style="text-align:center">
-            <img class="img-fluid " src="/localhost_files/sharepoint.png" alt="" width="250">
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-8">
-            <h5>Migrate document library from SharePoint Online, Migrate permissions, Get file content reports</h5>
-            <h6> Current Software Offerings are: <b>SharePoint Online To OneDrive/SharePoint Online</b> Migrator </h6>
-            <p><a class="btn btn-secondary" href="/about" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div>
+<div class="row ">
+    <div class="col-lg-4" style="text-align:center">
+        <img class="img-fluid" src="/localhost_files/google.jpg" alt="" width="150">
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-8">
+        <h5>Migrate contents from Google Drive, Create new folders, Migrate permissions, Get file content reports from Google Drive, and convert your Google forms, sheets, and docs into Microsoft Office documents</h5>
+        <h6> Current Software Offerings are: <b>Google Drive to OneDrive and SharePoint Online</b> Migrator </h6>
+        <p><a class="btn btn-secondary" href="/about" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+</div><!-- /.row -->
+<div class="row ">
+    <div class="col-lg-4" style="text-align:center">
+        <img class="img-fluid " src="/localhost_files/box_logo.png" alt="" width="100">
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-8">
+        <h5>Migrate contents from Box, Create new folders, Migrate permissions, Get file content reports from Box</h5>
+        <h6> Current Software Offerings are: <b>Box To OneDrive and SharePoint Online</b> Migrator </h6>
+        <p><a class="btn btn-secondary" href="/about" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+</div><!-- /.row -->
+<div class="row ">
+    <div class="col-lg-4" style="text-align:center">
+        <img class="img-fluid" src="/localhost_files/onedriveforbusiness.png" alt="" width="200">
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-8">
+        <h5>Migrate contents from OneDrive, Create new folders, Migrate permissions, Get file content reports</h5>
+        <h6> Current Software Offerings are: <b>OneDrive to OneDrive/SharePoint Online</b> Migrator </h6>
+        <p><a class="btn btn-secondary" href="/about" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+</div>
+<div class="row ">
+    <div class="col-lg-4" style="text-align:center">
+        <img class="img-fluid " src="/localhost_files/sharepoint.png" alt="" width="250">
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-8">
+        <h5>Migrate document library from SharePoint Online, Migrate permissions, Get file content reports</h5>
+        <h6> Current Software Offerings are: <b>SharePoint Online To OneDrive/SharePoint Online</b> Migrator </h6>
+        <p><a class="btn btn-secondary" href="/about" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+</div>
 
 
 
