@@ -31,7 +31,7 @@
             <p><a class="btn btn-secondary" href="/home/about" role="button">View details</a></p>
         </div>
 </div>
-    <div class="row">
+<div class="row">
         <div class="col-lg-4"  style="text-align:center">
             <img class="img-fluid" src="/localhost_files/exchange-online-logo.png" alt="" width="200">
         </div><!-- /.col-lg-4 -->
@@ -40,7 +40,8 @@
             <h6> Current Software Offerings are: <b>Exchange Online to Gmail, Exchange Online to Exchange Online</b> Migrator </h6>
             <p><a class="btn btn-secondary" href="/about" role="button">View details &raquo;</a></p>
         </div>
-    </div>
+</div>
+    
     <div class="row">
         <div class="col-lg-4" style="text-align:center">        
             <img class="img-fluid" src="/localhost_files/IMAP.jpg" alt="" width="100">
