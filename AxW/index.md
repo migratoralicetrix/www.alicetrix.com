@@ -43,7 +43,7 @@
 </div>    
 <div class="row">
     <div class="col-lg-4" style="text-align:center">        
-        <img class="img-fluid" src="/localhost_files/imap.jpg" alt="" width="100">
+        <img class="img-fluid" src="/localhost_files/IMAP.JPG" alt="" width="100">
     </div>
     <div class="col-lg-8">
         <h5>Migrate emails from IMAP </h5>
