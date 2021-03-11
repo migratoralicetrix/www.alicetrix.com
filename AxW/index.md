@@ -43,8 +43,8 @@
 </div>    
 <div class="row">
     <div class="col-lg-4" style="text-align:center">        
-        <img class="img-fluid" src="/localhost_files/IMAP.jpg" alt="" width="100">
-    </div><!-- /.col-lg-4 -->
+        <img class="img-fluid" src="/localhost_files/imap.jpg" alt="" width="100">
+    </div>
     <div class="col-lg-8">
         <h5>Migrate emails from IMAP </h5>
         <h6> Current Software Offerings are: <b>IMAP to Gmail, Exchange Online, IMAP</b> Migrator </h6>
