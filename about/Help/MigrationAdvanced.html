@@ -11,7 +11,7 @@
     <p>&nbsp;</p>
     <h3>Permission Copy</h3>
     <p>&nbsp;</p>
-    <p>Permission copy happens per below options and users can select them during Migration.</p>
+    <p>Permission copy happens per below options and users can select them during Migration. Permission copy only works for Folders.</p>
     <img src="images/MigrationPermissionMatchingAlgo.JPG" width="600" />
     <p>Note: it is required that all users/group with whom permission needs to be shared are already provisioned in destination tenant. This application will not auto provision the users and throws an error if users are not found with whom folders need to be shared.</p>
     <ol>
@@ -30,6 +30,7 @@
     <h4>Permission scenario by tenant:</h4>
     <p>Google to OneDrive: Organizer, Owner, Writer gets converted into Write Permission for OneDrive tenant, rest gets converted into Read permission in OneDrive tenant</p>
     <p>Box to OneDrive: Editor, Co-Owner gets converted into Write Permission for OneDrive tenant, rest gets converted into Read permission in OneDrive tenant</p>
+    <p>OneDrive/SPOL to OneDrive/SPOL: Folder permission mapping is transferred as-is. Permissions with expiry dates are not migrated, Shared Links are not migrated, App Permission are not migrated</p>
     <p>&nbsp;</p>
     
 
